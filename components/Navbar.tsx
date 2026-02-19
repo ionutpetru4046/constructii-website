@@ -11,7 +11,7 @@ export default function Navbar() {
         {/* Logo/Brand */}
         <Link href="/" className="flex items-center gap-2">
           <span className="bg-gradient-to-r from-yellow-500 to-yellow-600 bg-clip-text text-transparent text-2xl font-extrabold tracking-tight drop-shadow-sm select-none">
-            ConstructiiPro
+            kadarHouse.ro
           </span>
         </Link>
         {/* Desktop menu */}
