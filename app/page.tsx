@@ -4,29 +4,27 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className="min-h-screen">
-      <section className="bg-gray-900 text-white">
-        <div className="max-w-7xl mx-auto px-6 py-24">
-          <h1 className="text-4xl md:text-6xl font-bold leading-tight">
+    <main className="min-h-screen w-full flex flex-col">
+      <section className="relative flex items-center justify-center w-full h-screen min-h-[600px] overflow-hidden">
+        {/* Black hero page background (no image) */}
+        <div className="absolute inset-0 w-full h-full bg-black z-0" aria-hidden="true"></div>
+        <div className="relative z-20 flex flex-col justify-center items-center w-full h-full text-center px-4">
+          <h1 className="text-4xl md:text-6xl font-bold leading-tight text-white drop-shadow-lg max-w-4xl mx-auto">
             Construcții și Renovări Profesionale
           </h1>
-
-          <p className="mt-6 text-lg text-gray-300 max-w-2xl">
-            Oferim servicii complete de construcții, renovări și amenajări
-            interioare cu echipă calificată și materiale de calitate.
+          <p className="mt-6 text-lg md:text-2xl text-gray-200 max-w-2xl mx-auto drop-shadow-lg">
+            Oferim servicii complete de construcții, renovări și amenajări interioare cu echipă calificată și materiale de calitate superioară.
           </p>
-
-          <div className="mt-8 flex gap-4">
+          <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
             <Link
               href="/contact"
-              className="bg-yellow-500 hover:bg-yellow-600 text-black px-6 py-3 font-semibold rounded-md transition"
+              className="bg-yellow-500 hover:bg-yellow-600 text-black px-8 py-4 font-semibold rounded-md transition text-lg shadow-xl"
             >
-              Solicita Ofertă
+              Solicită Ofertă
             </Link>
-
             <Link
               href="/proiecte"
-              className="border border-white px-6 py-3 rounded-md hover:bg-white hover:text-black transition"
+              className="border border-white px-8 py-4 rounded-md hover:bg-white hover:text-black transition text-lg text-white font-semibold shadow-xl"
             >
               Vezi Proiecte
             </Link>
