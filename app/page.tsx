@@ -6,8 +6,15 @@ export default function Home() {
   return (
     <main className="min-h-screen w-full flex flex-col">
       <section className="relative flex items-center justify-center w-full h-screen min-h-[600px] overflow-hidden">
-        {/* Black hero page background (no image) */}
-        <div className="absolute inset-0 w-full h-full bg-black z-0" aria-hidden="true"></div>
+        {/* Hero background image with black overlay */}
+        <div
+          className="absolute inset-0 w-full h-full z-0 bg-cover bg-center"
+          style={{
+            backgroundImage: "url('/Construction.jpg'), linear-gradient(to bottom, rgba(0,0,0,0.60), rgba(0,0,0,0.85))",
+            backgroundBlendMode: "overlay",
+          }}
+          aria-hidden="true"
+        ></div>
         <div className="relative z-20 flex flex-col justify-center items-center w-full h-full text-center px-4">
           <h1 className="text-4xl md:text-6xl font-bold leading-tight text-white drop-shadow-lg max-w-4xl mx-auto">
             Construcții și Renovări Profesionale
