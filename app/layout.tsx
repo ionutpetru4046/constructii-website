@@ -3,7 +3,7 @@ import "./globals.css";
 import Footer from "@/components/Footer";
 
 export const metadata = {
-  title: "Constructii Pro",
+  title: "kadarHouse.ro",
   description: "Servicii profesionale de construcții și renovări.",
 };
 
