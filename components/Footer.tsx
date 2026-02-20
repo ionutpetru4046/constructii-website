@@ -9,7 +9,7 @@ export default function Footer() {
           {/* Company Info */}
           <div>
             <h3 className="text-white text-xl font-bold mb-4">
-              ConstructiiPro
+              kadarHouse.ro
             </h3>
             <p className="text-sm leading-relaxed">
               Oferim servicii profesionale de construcții, renovări și
