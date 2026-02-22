@@ -2,7 +2,7 @@ import { HiStar, HiShieldCheck, HiLightBulb } from "react-icons/hi2";
 
 export default function AboutPage() {
   return (
-    <main className="min-h-screen bg-gradient-to-tl from-gray-100 via-yellow-50 to-white py-10 md:py-20">
+    <main className="min-h-screen bg-linear-to-tl from-gray-100 via-yellow-50 to-white py-10 md:py-20">
       <div className="max-w-6xl mx-auto px-4 sm:px-8">
         <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-center mb-10 md:mb-16 tracking-tight text-gray-800">
           Despre <span className="text-yellow-500">Noi</span>
@@ -72,7 +72,7 @@ export default function AboutPage() {
           </h2>
           <a
             href="/contact"
-            className="inline-block bg-gradient-to-tr from-yellow-400 to-yellow-500 hover:from-yellow-500 hover:to-yellow-600 text-white px-8 py-3 md:px-10 md:py-4 font-semibold rounded-full shadow-lg hover:scale-105 transition text-base md:text-lg"
+            className="inline-block bg-linear-to-tr from-yellow-400 to-yellow-500 hover:from-yellow-500 hover:to-yellow-600 text-white px-8 py-3 md:px-10 md:py-4 font-semibold rounded-full shadow-lg hover:scale-105 transition text-base md:text-lg"
           >
             Contactează-ne acum
           </a>
