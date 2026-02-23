@@ -29,7 +29,7 @@ export default function AboutPage() {
                 className="rounded-2xl shadow-2xl object-cover w-full max-w-xs sm:max-w-sm lg:max-w-md aspect-video border-8 border-white group-hover:shadow-yellow-200 transition"
               />
               <div className="absolute bottom-3 right-3 bg-white/80 px-3 py-1 rounded-md text-xs font-semibold text-yellow-600 shadow-md hidden sm:block">
-                #Echipa KadarHouse
+                #Echipa KadarHouse.ro
               </div>
             </div>
           </div>
