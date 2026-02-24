@@ -31,7 +31,7 @@ export default function AboutPage() {
               <div className="absolute bottom-3 right-3 bg-white/80 px-3 py-1 rounded-md text-xs font-semibold text-yellow-600 shadow-md hidden sm:block">
                 #Echipa KadarHouse.ro
               </div>
-            </div>
+            </div>b
           </div>
         </section>
 
