@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Services() {
   return (
-    <section className="relative py-24 bg-gradient-to-br from-gray-100 to-white overflow-visible z-10">
+    <section className="relative py-24 bg-linear-to-br from-gray-100 to-white overflow-visible z-10">
       <div className="absolute inset-0 pointer-events-none opacity-10 bg-[url('/pattern-construction.svg')] bg-no-repeat bg-center" aria-hidden="true" />
       <div className="max-w-7xl mx-auto px-4 sm:px-8 relative z-10">
         <h2 className="text-4xl md:text-5xl font-extrabold text-center mb-5 tracking-tight text-gray-900 drop-shadow">
@@ -96,7 +96,7 @@ export default function Services() {
           </ul>
           <Link
             href="/contact"
-            className="mt-8 px-8 py-3 rounded-full text-white bg-gradient-to-r from-yellow-500 to-yellow-600 hover:from-yellow-600 hover:to-yellow-700 text-lg font-bold shadow-lg transition duration-200"
+            className="mt-8 px-8 py-3 rounded-full text-white bg-linear-to-r from-yellow-500 to-yellow-600 hover:from-yellow-600 hover:to-yellow-700 text-lg font-bold shadow-lg transition duration-200"
           >
             Cere o ofertă personalizată
           </Link>
