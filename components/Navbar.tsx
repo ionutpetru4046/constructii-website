@@ -10,7 +10,7 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-10 py-3 flex justify-between items-center">
         {/* Logo/Brand */}
         <Link href="/" className="flex items-center gap-2">
-          <span className="bg-gradient-to-r from-yellow-500 to-yellow-600 bg-clip-text text-transparent text-2xl font-extrabold tracking-tight drop-shadow-sm select-none">
+          <span className="bg-linear-to-r from-yellow-500 to-yellow-600 bg-clip-text text-transparent text-2xl font-extrabold tracking-tight drop-shadow-sm select-none">
             kadarHouse.ro
           </span>
         </Link>
@@ -91,7 +91,7 @@ function NavLink({
       onClick={onClick}
       className={`px-4 py-2 rounded-md transition font-medium ${
         highlight
-          ? "bg-gradient-to-r from-yellow-500 to-yellow-600 text-white hover:from-yellow-600 hover:to-yellow-700 shadow-md"
+          ? "bg-linear-to-r from-yellow-500 to-yellow-600 text-white hover:from-yellow-600 hover:to-yellow-700 shadow-md"
           : "text-gray-800 hover:bg-yellow-100 hover:text-yellow-700"
       }`}
     >
