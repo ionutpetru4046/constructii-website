@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function WhyChooseUs() {
   return (
-    <section className="relative py-24 bg-gradient-to-br from-gray-100 to-white overflow-visible z-10">
+    <section className="relative py-24 bg-linear-to-br from-gray-100 to-white overflow-visible z-10">
       <div className="absolute inset-0 z-0 pointer-events-none opacity-10 bg-[url('/pattern-construction.svg')] bg-no-repeat bg-center" />
       <div className="max-w-7xl mx-auto px-4 sm:px-8 relative z-10">
         <h2 className="text-4xl md:text-5xl font-extrabold text-center mb-6 tracking-tight text-gray-900 drop-shadow">
@@ -51,7 +51,7 @@ export default function WhyChooseUs() {
         <div className="flex justify-center mt-10">
           <Link
             href="/contact"
-            className="px-8 py-4 rounded-full text-white bg-gradient-to-r from-yellow-500 to-yellow-600 hover:from-yellow-600 hover:to-yellow-700 text-lg font-bold shadow-xl transition duration-200"
+            className="px-8 py-4 rounded-full text-white bg-linear-to-r from-yellow-500 to-yellow-600 hover:from-yellow-600 hover:to-yellow-700 text-lg font-bold shadow-xl transition duration-200"
           >
             Cere o ofertă personalizată
           </Link>
