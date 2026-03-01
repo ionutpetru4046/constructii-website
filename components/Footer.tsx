@@ -95,7 +95,7 @@ export default function Footer() {
               </li>
               <li className="flex items-center gap-3">
                 <FiClock className="text-yellow-400 opacity-90" />
-                <span>Sâmbătă: 09:00 – 20:00</span>
+                <span>Sâmbătă: 09:00 – 22:00</span>
               </li>
               <li className="flex items-center gap-3">
                 <FiClock className="text-yellow-400 opacity-50" />
