@@ -2,7 +2,7 @@ import { Mail, Phone, MapPin, Clock, Building2, ShieldCheck, CheckCircle2 } from
 
 export default function ContactPage() {
   return (
-    <main className="min-h-screen bg-gradient-to-br from-gray-100 to-white py-16">
+    <main className="min-h-screen bg-linear-to-br from-gray-100 to-white py-16">
       <div className="max-w-6xl mx-auto px-4 lg:px-8">
         <section className="mb-16 text-center">
           <h1 className="text-4xl md:text-5xl font-extrabold mb-4 text-gray-900 tracking-tight">
@@ -126,7 +126,7 @@ export default function ContactPage() {
               </div>
               <button
                 type="submit"
-                className="w-full py-3 rounded-full text-white bg-gradient-to-r from-yellow-500 to-yellow-600 hover:from-yellow-600 hover:to-yellow-700 text-lg font-semibold shadow-lg transition duration-200 mt-2"
+                className="w-full py-3 rounded-full text-white bg-linear-to-r from-yellow-500 to-yellow-600 hover:from-yellow-600 hover:to-yellow-700 text-lg font-semibold shadow-lg transition duration-200 mt-2"
               >
                 Trimite mesaj
               </button>
@@ -150,7 +150,7 @@ export default function ContactPage() {
         </div>
 
         {/* Call to Action Section */}
-        <section className="mt-20 py-12 px-4 md:px-12 bg-gradient-to-r from-yellow-400 via-yellow-500 to-yellow-600 rounded-3xl shadow-2xl flex flex-col md:flex-row items-center justify-between gap-8">
+        <section className="mt-20 py-12 px-4 md:px-12 bg-linear-to-r from-yellow-400 via-yellow-500 to-yellow-600 rounded-3xl shadow-2xl flex flex-col md:flex-row items-center justify-between gap-8">
           <div className="text-white text-center md:text-left">
             <h3 className="text-2xl md:text-3xl font-bold mb-2">Pregătit să începi un proiect?</h3>
             <p className="md:text-lg">
