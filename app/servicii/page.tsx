@@ -2,7 +2,7 @@ import { Hammer, Wrench, Building2, Paintbrush, Factory, Users, ShieldCheck } fr
 
 export default function Services() {
   return (
-    <section className="py-24 bg-gradient-to-br from-gray-100 to-white relative overflow-visible">
+    <section className="py-24 bg-linear-to-br from-gray-100 to-white relative overflow-visible">
       <div className="absolute z-0 inset-0 pointer-events-none opacity-20 bg-[url('/pattern-construction.svg')] bg-no-repeat bg-right-top" />
       <div className="max-w-7xl mx-auto relative z-10 px-4 sm:px-8">
         <h2 className="text-4xl md:text-5xl font-extrabold text-center mb-4 tracking-tight text-gray-900">
@@ -132,7 +132,7 @@ function FeatureCard({
   description: string;
 }) {
   return (
-    <div className="bg-gradient-to-tr from-yellow-50 via-white to-white rounded-xl p-7 border border-yellow-100 shadow flex flex-col items-center text-center hover:shadow-md transition">
+    <div className="bg-linear-to-tr from-yellow-50 via-white to-white rounded-xl p-7 border border-yellow-100 shadow flex flex-col items-center text-center hover:shadow-md transition">
       <span className="mb-4">{icon}</span>
       <h4 className="text-lg font-semibold mb-2 text-gray-900">{title}</h4>
       <p className="text-gray-600 text-sm">{description}</p>
