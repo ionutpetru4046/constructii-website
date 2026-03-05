@@ -108,7 +108,7 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="border-t border-gray-800/80 mt-12 pt-6 flex flex-col md:flex-row items-center justify-between text-sm gap-4">
           <span className="text-gray-500">
-            © {new Date().getFullYear()} <span className="font-semibold text-yellow-400">ConstructiiPro</span>. Toate drepturile rezervate.
+            © {new Date().getFullYear()} <span className="font-semibold text-yellow-400">kadarHouse.ro</span>. Toate drepturile rezervate.
           </span>
           <div className="flex gap-2 text-xs">
             <Link href="/termeni" className="hover:text-yellow-300 underline underline-offset-4 transition">
