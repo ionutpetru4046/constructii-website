@@ -1,6 +1,7 @@
 "use client";
 import Link from "next/link";
 import { useState } from "react";
+import Image from "next/image";
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -9,10 +10,15 @@ export default function Navbar() {
     <nav className="w-full bg-white shadow-lg fixed top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-10 py-3 flex justify-between items-center">
         {/* Logo/Brand */}
-        <Link href="/" className="flex items-center gap-2">
-          <span className="bg-linear-to-r from-yellow-500 to-yellow-600 bg-clip-text text-transparent text-2xl font-extrabold tracking-tight drop-shadow-sm select-none">
-            kadarHouse.ro
-          </span>
+        <Link href="/" className="flex items-center gap-3">
+          <Image
+            src="/kadarHouse.jpeg"
+            alt="kadarHouse Logo"
+            width={100}
+            height={100}
+            className="h-16 w-16 object-contain select-none"
+            priority
+          />
         </Link>
         {/* Desktop menu */}
         <div className="hidden md:flex items-center gap-2">
