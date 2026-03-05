@@ -16,7 +16,7 @@ export default function Navbar() {
             alt="kadarHouse Logo"
             width={100}
             height={100}
-            className="h-16 w-16 object-contain select-none"
+            className="h-30 w-30 object-contain select-none"
             priority
           />
         </Link>
