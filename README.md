@@ -1,36 +1,51 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# kadarHouse.ro
 
-## Getting Started
+**kadarHouse.ro** este un website profesional dedicat serviciilor de construcții, renovări și amenajări interioare, realizat cu [Next.js](https://nextjs.org).
 
-First, run the development server:
+## Funcționalități principale
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Prezentare servicii de construcții, instalații, amenajări și consultanță
+- Galerie proiecte realizate
+- Informații despre echipa și avantajele colaborării
+- Formulare de contact pentru ofertare rapidă
+- Responsiv, modern și optimizat SEO
+- Navigare rapidă și design profesional
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Cum rulezi local
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. Instalează dependențele:
+   ```bash
+   npm install
+   ```
+2. Pornește serverul de development:
+   ```bash
+   npm run dev
+   ```
+3. Accesează site-ul la [http://localhost:3000](http://localhost:3000)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Website-ul este dezvoltat cu [Next.js App Router](https://nextjs.org/docs/app), folosește componente moderne React, TailwindCSS pentru styling și este gata de deploy pe Vercel.
 
-## Learn More
+## Structura principală
 
-To learn more about Next.js, take a look at the following resources:
+- `app/` — paginile site-ului
+- `components/` — componente reutilizabile (Navbar, Footer, Services etc.)
+- `public/` — imagini și assets statice
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Personalizare
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Toate textele, serviciile și informațiile de contact pot fi modificate din fișierele din `app/` și `components/`.
 
-## Deploy on Vercel
+## Deploy
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Poți realiza deploy rapid pe [Vercel](https://vercel.com/new) sau pe orice host compatibil Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Contact
+
+Pentru detalii suplimentare sau colaborare:
+- Telefon: +40 712 345 678
+- Email: contact@constructiipro.ro
+- Locație: București, România
+
+---
+
+**kadarHouse.ro** — Profesioniști în construcții și renovări. Calitate, punctualitate, garanție!
