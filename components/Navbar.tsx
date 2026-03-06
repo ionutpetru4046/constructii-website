@@ -10,13 +10,16 @@ export default function Navbar() {
     <nav className="w-full bg-white shadow-lg fixed top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-10 py-3 flex justify-between items-center">
         {/* Logo/Brand */}
-        <Link href="/" className="flex items-center gap-3">
+        <Link
+          href="/"
+          className="flex items-center gap-3 group"
+        >
           <Image
             src="/kadarHouse.jpeg"
             alt="kadarHouse Logo"
             width={100}
             height={100}
-            className="h-30 w-30 object-contain select-none"
+            className="h-35 w-35 object-contain select-none transition-transform duration-200 group-hover:scale-105 group-hover:brightness-110"
             priority
           />
         </Link>
