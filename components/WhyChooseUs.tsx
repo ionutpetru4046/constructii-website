@@ -37,7 +37,7 @@ export default function WhyChooseUs() {
         <ul className="mt-16 mx-auto max-w-xl flex flex-col md:flex-row items-center justify-center gap-6 text-gray-700 text-base">
           <li className="flex items-center gap-2">
             <Wrench className="h-6 w-6 text-yellow-600" />
-            Gestionăm proiectul de la A la Z – tu alegi, noi ne ocupăm de tot!
+            Gestionăm proiectul de la inceput pana la sfarsit – tu alegi, noi ne ocupăm de tot!
           </li>
           <li className="flex items-center gap-2">
             <Paintbrush className="h-6 w-6 text-yellow-600" />
