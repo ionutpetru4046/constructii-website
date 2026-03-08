@@ -161,7 +161,7 @@ export default function ContactPage() {
             href="tel:+40712345678"
             className="inline-block px-8 py-3 rounded-full bg-white text-yellow-700 text-lg font-bold shadow-md hover:bg-yellow-100 mt-4 md:mt-0 transition"
           >
-            Sună acum
+            Sună acum!
           </a>
         </section>
       </div>
