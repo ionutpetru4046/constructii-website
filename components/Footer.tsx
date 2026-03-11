@@ -91,7 +91,7 @@ export default function Footer() {
             <ul className="space-y-3 text-sm">
               <li className="flex items-center gap-3">
                 <FiClock className="text-yellow-400" />
-                <span>Luni - Vineri: 09:00 – 18:00</span>
+                <span>Luni - Vineri: 10:00 – 18:00</span>
               </li>
               <li className="flex items-center gap-3">
                 <FiClock className="text-yellow-400 opacity-90" />
