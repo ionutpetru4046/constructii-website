@@ -13,7 +13,7 @@ export default function ProiectePage() {
           <div className="grid md:grid-cols-3 gap-8">
             <div className="bg-white rounded-xl shadow-md overflow-hidden flex flex-col">
               <img
-                src="/proiecte/apartament-modern.jpg"
+                src="/House1.jpg"
                 alt="Renovare apartament modern"
                 className="w-full h-48 object-cover"
               />
@@ -26,7 +26,7 @@ export default function ProiectePage() {
             </div>
             <div className="bg-white rounded-xl shadow-md overflow-hidden flex flex-col">
               <img
-                src="/proiecte/casa-familie.jpg"
+                src="/House2.jpg"
                 alt="Construcție casă de familie"
                 className="w-full h-48 object-cover"
               />
@@ -39,7 +39,7 @@ export default function ProiectePage() {
             </div>
             <div className="bg-white rounded-xl shadow-md overflow-hidden flex flex-col">
               <img
-                src="/proiecte/spatiu-comercial.jpg"
+                src="/House3.jpg"
                 alt="Amenajare spațiu comercial"
                 className="w-full h-48 object-cover"
               />
