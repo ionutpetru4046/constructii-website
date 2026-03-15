@@ -54,12 +54,12 @@ export default function Navbar() {
           <Image
             src="/kadarHouse.jpeg"
             alt="kadarHouse Logo"
-            width={48}
-            height={48}
-            className="h-12 w-12 sm:h-14 sm:w-14 object-contain rounded-lg shadow-sm border border-gray-200 select-none group-hover:scale-105 transition"
+            width={64}
+            height={64}
+            className="h-16 w-16 sm:h-20 sm:w-20 object-contain rounded-lg shadow-sm border border-gray-200 select-none group-hover:scale-105 transition"
             priority
           />
-          <span className="font-extrabold text-xl sm:text-2xl text-yellow-600 tracking-tight leading-none ml-1 group-hover:text-yellow-700 hidden xs:inline">
+          <span className="font-extrabold text-2xl sm:text-3xl text-yellow-600 tracking-tight leading-none ml-1 group-hover:text-yellow-700 hidden xs:inline">
             kadar<span className="text-gray-900">House</span>
           </span>
         </Link>
@@ -156,8 +156,8 @@ function NavLink({
       className={`px-4 py-2 rounded-md transition font-medium outline-none flex items-center gap-1 relative 
         ${
           highlight
-            ? "bg-linear-to-r from-yellow-500 to-yellow-600 text-white shadow-md hover:from-yellow-600 hover:to-yellow-700 focus-visible:ring-2 focus-visible:ring-yellow-400"
-            : "text-gray-800 hover:text-yellow-700 hover:bg-yellow-100 focus-visible:ring-2 focus-visible:ring-yellow-400"
+            ? "bg-linear-to-r from-yellow-500 to-yellow-600 text-white shadow-md hover:from-yellow-600 hover:to-yellow-700 focus-visible:ring-2 focus-visible:ring-yellow-400 underline-offset-4 hover:underline"
+            : "text-gray-800 hover:text-yellow-700 hover:bg-yellow-100 focus-visible:ring-2 focus-visible:ring-yellow-400 underline-offset-4 hover:underline"
         }
       `}
       tabIndex={0}
