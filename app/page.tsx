@@ -1,6 +1,9 @@
 import Services from "@/components/Services";
 import WhyChooseUs from "@/components/WhyChooseUs";
 import Link from "next/link";
+import ContactPage from "./contact/page";
+import DesprePage from "./despre/page";
+import ProiectePage from "./proiecte/page";
 
 export default function Home() {
   return (
@@ -38,8 +41,11 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <WhyChooseUs />
       <Services />
+      <ProiectePage />
+      <WhyChooseUs />
+      <DesprePage />
+      <ContactPage />
     </main>
   );
 }

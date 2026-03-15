@@ -24,7 +24,7 @@ export default function AboutPage() {
           <div className="w-full lg:w-1/2 flex justify-center">
             <div className="relative group transition hover:scale-105 duration-300">
               <img
-                src="/team.jpg"
+                src="/teamConstruction.jpg"
                 alt="Echipa ConstructiiPro"
                 className="rounded-2xl shadow-2xl object-cover w-full max-w-xs sm:max-w-sm lg:max-w-md aspect-video border-8 border-white group-hover:shadow-yellow-200 transition"
               />
