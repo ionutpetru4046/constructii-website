@@ -2,7 +2,7 @@ export default function ProiectePage() {
   return (
     <main className="min-h-screen bg-gray-50 py-20">
       <div className="max-w-7xl mx-auto px-6">
-        <h1 className="text-4xl font-bold mt-22 mb-12 text-center">
+        <h1 className="text-5xl font-bold mt-22 mb-12 text-center">
           Proiectele Noastre
         </h1>
 
