@@ -9,7 +9,7 @@ export default function ContactPage() {
             Contactează-ne
           </h1>
           <p className="text-lg md:text-xl text-gray-700 max-w-2xl mx-auto mb-4">
-            Ai un proiect de construcții sau renovare? Scrie-ne sau sună-ne – echipa nostra îți stă la dispoziție cu soluții rapide, consultanță gratuită și oferte personalizate.
+            Ai un proiect de construcții sau renovare? Scrie-ne sau Sună-ne – Echipa nostra îți stă la dispoziție cu soluții rapide, consultanță gratuită și oferte personalizate.
           </p>
           <div className="flex justify-center gap-3 flex-wrap mb-2">
             <span className="inline-flex items-center gap-2 bg-yellow-100 text-yellow-700 rounded-full px-4 py-2 text-sm font-medium">
