@@ -12,7 +12,7 @@ import {
 
 export default function ContactPage() {
   return (
-    <main className="min-h-screen bg-gradient-to-br from-gray-100 to-white py-10 md:py-16">
+    <main className="min-h-screen bg-linear-to-br from-gray-100 to-white py-10 md:py-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Hero & Highlights */}
         <section className="mb-10 md:mb-16 flex flex-col gap-4 items-center">
@@ -149,7 +149,7 @@ export default function ContactPage() {
               </div>
               <button
                 type="submit"
-                className="w-full py-2.5 md:py-3 rounded-full text-white bg-gradient-to-r from-yellow-500 to-yellow-600 hover:from-yellow-600 hover:to-yellow-700 text-base md:text-lg font-semibold shadow-lg transition mt-2"
+                className="w-full py-2.5 md:py-3 rounded-full text-white bg-linear-to-r from-yellow-500 to-yellow-600 hover:from-yellow-600 hover:to-yellow-700 text-base md:text-lg font-semibold shadow-lg transition mt-2"
               >
                 Trimite mesaj
               </button>
@@ -174,7 +174,7 @@ export default function ContactPage() {
         </div>
 
         {/* CTA */}
-        <section className="mt-10 md:mt-20 py-8 md:py-12 px-4 md:px-12 bg-gradient-to-r from-yellow-400 via-yellow-500 to-yellow-600 rounded-2xl shadow-2xl flex flex-col md:flex-row items-center justify-between gap-6 text-center md:text-left">
+        <section className="mt-10 md:mt-20 py-8 md:py-12 px-4 md:px-12 bg-linear-to-r from-yellow-400 via-yellow-500 to-yellow-600 rounded-2xl shadow-2xl flex flex-col md:flex-row items-center justify-between gap-6 text-center md:text-left">
           <div className="text-white">
             <h3 className="text-xl md:text-2xl font-bold mb-1">Pregătit să începi un proiect?</h3>
             <p className="md:text-lg">
