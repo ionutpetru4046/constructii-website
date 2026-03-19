@@ -3,110 +3,131 @@ import { Hammer, Wrench, Building2, Paintbrush, Factory, Users, ShieldCheck } fr
 export default function Services() {
   return (
     <section
-      className="pt-28 sm:pt-32 pb-16 sm:pb-24 bg-linear-to-br from-gray-100 to-white relative overflow-visible"
       id="servicii"
+      className="relative isolate overflow-visible pt-32 pb-24 min-h-screen bg-gradient-to-tr from-gray-100 via-white to-yellow-50"
     >
-      {/* Responsive construction pattern background */}
-      <div className="absolute z-0 inset-0 pointer-events-none opacity-20 bg-[url('/pattern-construction.svg')] bg-no-repeat bg-right-top bg-cover sm:bg-auto" />
-      <div className="max-w-7xl mx-auto relative z-10 px-4 sm:px-8">
-        <h2 className="text-3xl xs:text-4xl md:text-5xl pt-24 font-extrabold text-center mb-4 tracking-tight text-gray-900 leading-tight">
-          Expertiză & Soluții Complete în Construcții
-        </h2>
-        <p className="text-center text-base xs:text-lg text-gray-700 max-w-2xl mx-auto mb-10 sm:mb-14">
-          Suntem partenerul de încredere pentru proiectele tale: de la construcții civile, amenajări moderne, la instalații profesionale și management de șantier — transformăm ideile în realitate, pas cu pas.
-        </p>
-        {/* Service cards: fully responsive grid */}
-        <div className="grid grid-cols-1 xs:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8">
+      {/* Modern grid dot background accent */}
+      <div className="absolute inset-0 pointer-events-none z-0">
+        <div className="absolute inset-0 bg-[url('/pattern-construction.svg')] bg-top bg-cover opacity-10" />
+        <div className="absolute left-2/3 top-1/4 w-64 h-64 -z-10 blur-2xl bg-yellow-300/30 rounded-full" />
+        <div className="absolute right-1/4 bottom-12 w-48 h-48 -z-10 blur-2xl bg-yellow-200/60 rounded-full" />
+      </div>
+
+      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-8">
+        {/* Header Section */}
+        <header className="flex flex-col items-center text-center mb-14 md:mb-20">
+          <span className="inline-block mb-2 uppercase text-xs md:text-sm tracking-widest font-bold text-yellow-500/90 bg-yellow-100/80 px-3 py-1 rounded-full shadow-md">
+            Servicii Complete
+          </span>
+          <h2 className="text-5xl md:text-6xl font-black leading-tight tracking-tight text-gray-900 pb-2 drop-shadow-md">
+            Soluții Moderne <span className="text-yellow-600">& Profesionale</span>
+          </h2>
+          <p className="text-lg md:text-2xl text-gray-600/90 max-w-2xl mt-6 mb-2 px-1 font-semibold">
+            Gestionăm fiecare proiect cu design contemporan, tehnologii noi și transparență totală — tu rămâi mereu în controlul rezultatului.
+          </p>
+        </header>
+
+        {/* Service Cards */}
+        <div className="grid gap-8 md:gap-10 grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 mb-14">
           <ServiceCard
-            icon={<Building2 size={44} className="xs:size-48" />}
+            icon={<Building2 size={54} className="text-yellow-500 drop-shadow-xl" />}
             title="Construcții Generale"
-            description="Realizăm case, clădiri de birouri, hale industriale și spații comerciale – de la fundație la predare la cheie."
+            description="Case, imobile și sedii moderne, la standarde premium & management transparent."
             items={[
-              "Case & vile la roșu sau la cheie",
-              "Clădiri rezidențiale și comerciale",
-              "Structuri metalice, beton, zidărie"
+              "Case & vile (structură și finisaje)",
+              "Clădiri rezidențiale/comerciale",
+              "Structuri durabile: beton, metal, zidărie"
             ]}
           />
           <ServiceCard
-            icon={<Hammer size={44} className="xs:size-48" />}
+            icon={<Hammer size={54} className="text-yellow-500 drop-shadow-xl" />}
             title="Renovări & Reabilitări"
-            description="Renovăm spații vechi, modernizăm apartamente, consolidăm structuri și asigurăm finisaje premium."
+            description="Redăm viață spațiilor cu materiale inovatoare, rapid, curat și sigur."
             items={[
-              "Finisaje interioare & exterioare",
-              "Refacere pereți, tavane, pardoseli",
-              "Izolații termice/termohidro"
+              "Finisaje moderne interior/exterior",
+              "Refaceri integrate – pereți, tavane, pardoseli",
+              "Izolații, compartimentări, rezistență"
             ]}
           />
           <ServiceCard
-            icon={<Paintbrush size={44} className="xs:size-48" />}
+            icon={<Paintbrush size={54} className="text-yellow-500 drop-shadow-xl" />}
             title="Amenajări Interioare"
-            description="Personalizăm ambiente, de la design interior la execuție – totul pe gustul și nevoile tale."
+            description="Personalizăm fiecare spațiu de la concept la detaliu — estetica și funcționalitate se întâlnesc."
             items={[
-              "Montaj gresie, faianță, parchet",
-              "Tencuieli decorative, vopsitorii",
-              "Tavane false & compartimentări gips-carton"
+              "Pachet complet: gresie, faianță, parchet",
+              "Tencuieli, zugrăveli, tapet",
+              "Tavane & pereți gips-carton"
             ]}
           />
           <ServiceCard
-            icon={<Wrench size={44} className="xs:size-48" />}
+            icon={<Wrench size={54} className="text-yellow-500 drop-shadow-xl" />}
             title="Instalații & Utilități"
-            description="Montăm și reabilităm instalații sanitare, electrice și termice folosind tehnologii moderne."
+            description="Rețele smart pentru siguranță, economie și confort — totul updatat la 2024."
             items={[
-              "Instalații electrice & iluminat",
-              "Sisteme sanitare & termice",
-              "Automatizări, ventilații, HVAC"
+              "Electric, termic & smart home",
+              "Sanitare, centrale, automatizări",
+              "Ventilații, climatizare, HVAC"
             ]}
           />
         </div>
 
-        {/* Features */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 sm:gap-8 mt-12 sm:mt-16">
+        {/* Feature Cards */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 md:gap-14 mt-10 md:mt-20 mb-10">
           <FeatureCard
-            icon={<Factory size={32} />}
+            icon={<Factory size={38} className="text-yellow-600" />}
             title="Proiectare & Consultanță"
-            description="Oferim soluții tehnice complete – analizăm, optimizăm și adaptăm proiectul la bugetul și nevoile tale."
+            description="Soluții tehnice avansate, 100% adaptate viziunii și bugetului tău. Consultanță personalizată."
           />
           <FeatureCard
-            icon={<Users size={32} />}
+            icon={<Users size={38} className="text-yellow-600" />}
             title="Echipă Certificată"
-            description="Lucrăm cu specialiști atestați, ingineri și tehnicieni cu experiență în domeniu."
+            description="Ingineri și tehnicieni autorizați, în pas cu standardele tehnologice actuale."
           />
           <FeatureCard
-            icon={<ShieldCheck size={32} />}
+            icon={<ShieldCheck size={38} className="text-yellow-600" />}
             title="Calitate & Garanție"
-            description="Utilizăm materiale premium și tehnici moderne, garantând durabilitate și siguranță la fiecare proiect."
+            description="Materiale top, execuții fără erori, garanție extinsă și suport complet."
           />
         </div>
 
-        {/* Why us section */}
-        <div className="mt-14 sm:mt-20 max-w-2xl mx-auto flex flex-col items-center text-center px-2">
-          <h3 className="text-xl sm:text-2xl font-bold mb-3 text-gray-900">
-            De ce să lucrezi cu noi?
+        {/* Why Us Section */}
+        <section className="mt-24 md:mt-32 mx-auto max-w-2xl rounded-3xl shadow-2xl px-8 py-14 flex flex-col items-center text-center border border-yellow-200 bg-gradient-to-br from-white/80 via-yellow-50/20 to-yellow-100/60 backdrop-blur-md ring-1 ring-inset ring-yellow-200/30">
+          <h3 className="text-3xl md:text-4xl font-extrabold text-gray-900 mb-6 tracking-tight drop-shadow">
+            Ce ne diferențiază?
           </h3>
-          <ul className="space-y-3 inline-block text-gray-700 w-full text-left sm:text-center sm:w-auto">
-            <li className="flex items-center gap-2 justify-start sm:justify-center">
-              <Hammer className="h-5 w-5 text-yellow-600" /> Respectăm termenele limită
+          <ul className="grid gap-3 md:gap-5 mb-10 grid-cols-1 md:grid-cols-3 text-base md:text-lg w-full">
+            <li className="flex flex-col md:flex-row items-center md:justify-center gap-2.5 text-gray-800 font-medium">
+              <span className="rounded-full p-2 bg-yellow-100">
+                <Hammer className="h-7 w-7 text-yellow-600" />
+              </span>
+              Termene <span className="text-yellow-600 font-bold">fără excepție</span>
             </li>
-            <li className="flex items-center gap-2 justify-start sm:justify-center">
-              <ShieldCheck className="h-5 w-5 text-yellow-600" /> Garanții extinse pentru toate lucrările
+            <li className="flex flex-col md:flex-row items-center md:justify-center gap-2.5 text-gray-800 font-medium">
+              <span className="rounded-full p-2 bg-yellow-100">
+                <ShieldCheck className="h-7 w-7 text-yellow-600" />
+              </span>
+              Garanții <span className="text-yellow-600 font-bold">scrise</span>
             </li>
-            <li className="flex items-center gap-2 justify-start sm:justify-center">
-              <Users className="h-5 w-5 text-yellow-600" /> Consultanță gratuită la fiecare pas
+            <li className="flex flex-col md:flex-row items-center md:justify-center gap-2.5 text-gray-800 font-medium">
+              <span className="rounded-full p-2 bg-yellow-100">
+                <Users className="h-7 w-7 text-yellow-600" />
+              </span>
+              <span>Transparență <span className="text-yellow-600 font-bold">totală</span></span>
             </li>
           </ul>
           <a
             href="/contact"
-            className="mt-8 px-6 sm:px-8 py-3 rounded-full text-white bg-linear-to-r from-yellow-500 to-yellow-600 hover:from-yellow-600 hover:to-yellow-700 text-base sm:text-lg font-semibold shadow-lg transition duration-200 w-full sm:w-auto text-center"
+            className="inline-block mt-4 md:mt-3 px-12 py-5 rounded-full bg-gradient-to-r from-yellow-500 via-yellow-600 to-yellow-700 hover:from-yellow-600 hover:to-yellow-800 text-xl font-bold text-white shadow-xl transition-all ring-2 ring-yellow-400/20"
           >
             Cere o ofertă personalizată
           </a>
-        </div>
+        </section>
       </div>
     </section>
   );
 }
 
-// Service card: responsive padding, font sizes, touch targets, stacking
+// Modern ServiceCard: frosted glass, 3D hover, bright accent border, dynamic highlight
 function ServiceCard({
   icon,
   title,
@@ -119,22 +140,25 @@ function ServiceCard({
   items: string[];
 }) {
   return (
-    <div className="bg-white p-6 sm:p-8 rounded-2xl shadow-lg flex flex-col items-center hover:-translate-y-1.5 hover:shadow-xl border border-gray-100 transition duration-300 min-h-[340px]">
-      <div className="bg-yellow-100 text-yellow-600 rounded-full p-3 sm:p-4 mb-4 sm:mb-5 flex items-center justify-center hover:scale-110 transition">
+    <div className="relative bg-white/75 backdrop-blur-xl border-2 border-yellow-100/80 shadow-2xl group hover:shadow-yellow-200/80 hover:scale-[1.04] transition-all duration-400 p-7 md:p-9 rounded-[1.6rem] flex flex-col items-center min-h-[380px] overflow-hidden">
+      <div className="bg-gradient-to-tr from-yellow-200/80 via-yellow-50 to-white rounded-full mb-6 flex items-center justify-center p-4 border-2 border-yellow-400/10 group-hover:scale-110 transition-all drop-shadow-lg">
         {icon}
       </div>
-      <h3 className="text-lg sm:text-xl font-bold mb-2 text-gray-900 text-center">{title}</h3>
-      <p className="text-gray-600 mb-3 text-center text-sm sm:text-base">{description}</p>
-      <ul className="list-disc list-inside text-sm sm:text-[15px] text-gray-500 space-y-1 text-left mt-2 w-full">
+      <h3 className="text-2xl font-extrabold text-gray-900 text-center mb-1 leading-relaxed tracking-tight">{title}</h3>
+      <p className="text-gray-600 mb-4 text-center md:text-lg text-base font-semibold min-h-[50px]">{description}</p>
+      <ul className="list-none px-0 py-1 text-gray-600/90 text-[15.5px] md:text-[17px] space-y-1.5 w-full pl-1">
         {items.map((item, i) => (
-          <li key={i}>{item}</li>
+          <li key={i} className="flex items-center gap-2 before:content-[''] before:w-2 before:h-2 before:rounded-full before:bg-yellow-400/80 before:inline-block" >
+            {item}
+          </li>
         ))}
       </ul>
+      <span className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-yellow-400/80 via-yellow-500/90 to-yellow-400/60 group-hover:h-2 group-hover:from-yellow-500/90 group-hover:via-yellow-400/90 group-hover:to-yellow-500/90 transition-all duration-400" />
     </div>
   );
 }
 
-// Feature card: responsive padding, font, icon size
+// Modern FeatureCard: transparent glass, vibrant icon, strong shadow, hover lift
 function FeatureCard({
   icon,
   title,
@@ -145,10 +169,12 @@ function FeatureCard({
   description: string;
 }) {
   return (
-    <div className="bg-linear-to-tr from-yellow-50 via-white to-white rounded-xl p-5 sm:p-7 border border-yellow-100 shadow flex flex-col items-center text-center hover:shadow-md transition">
-      <span className="mb-3 sm:mb-4">{icon}</span>
-      <h4 className="text-base sm:text-lg font-semibold mb-1 sm:mb-2 text-gray-900">{title}</h4>
-      <p className="text-gray-600 text-xs sm:text-sm">{description}</p>
+    <div className="bg-white/90 backdrop-blur-[2.5px] border-2 border-yellow-100/70 shadow-lg hover:shadow-yellow-300/60 hover:-translate-y-1 group rounded-2xl p-7 md:p-9 flex flex-col items-center text-center transition-all duration-300">
+      <span className="mb-4 flex items-center justify-center w-16 h-16 rounded-full bg-yellow-100/80 border-2 border-yellow-400/5 shadow-md group-hover:bg-yellow-200/90 group-hover:scale-110 transition-all">
+        {icon}
+      </span>
+      <h4 className="text-xl md:text-2xl font-bold text-gray-900 mb-1.5 leading-snug">{title}</h4>
+      <p className="text-gray-700 md:text-base text-[15.5px] font-medium opacity-90">{description}</p>
     </div>
   );
 }
