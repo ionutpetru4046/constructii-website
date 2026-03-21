@@ -4,7 +4,7 @@ export default function Services() {
   return (
     <section
       id="servicii"
-      className="relative isolate overflow-visible pt-32 pb-24 min-h-screen bg-gradient-to-tr from-gray-100 via-white to-yellow-50"
+      className="relative isolate overflow-visible pt-32 pb-24 min-h-screen bg-linear-to-tr from-gray-100 via-white to-yellow-50"
     >
       {/* Modern grid dot background accent */}
       <div className="absolute inset-0 pointer-events-none z-0">
@@ -141,7 +141,7 @@ function ServiceCard({
 }) {
   return (
     <div className="relative bg-white/75 backdrop-blur-xl border-2 border-yellow-100/80 shadow-2xl group hover:shadow-yellow-200/80 hover:scale-[1.04] transition-all duration-400 p-7 md:p-9 rounded-[1.6rem] flex flex-col items-center min-h-[380px] overflow-hidden">
-      <div className="bg-gradient-to-tr from-yellow-200/80 via-yellow-50 to-white rounded-full mb-6 flex items-center justify-center p-4 border-2 border-yellow-400/10 group-hover:scale-110 transition-all drop-shadow-lg">
+      <div className="bg-linear-to-tr from-yellow-200/80 via-yellow-50 to-white rounded-full mb-6 flex items-center justify-center p-4 border-2 border-yellow-400/10 group-hover:scale-110 transition-all drop-shadow-lg">
         {icon}
       </div>
       <h3 className="text-2xl font-extrabold text-gray-900 text-center mb-1 leading-relaxed tracking-tight">{title}</h3>
