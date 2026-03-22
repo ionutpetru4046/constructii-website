@@ -91,7 +91,7 @@ export default function Services() {
         </div>
 
         {/* Why Us Section */}
-        <section className="mt-24 md:mt-32 mx-auto max-w-2xl rounded-3xl shadow-2xl px-8 py-14 flex flex-col items-center text-center border border-yellow-200 bg-gradient-to-br from-white/80 via-yellow-50/20 to-yellow-100/60 backdrop-blur-md ring-1 ring-inset ring-yellow-200/30">
+        <section className="mt-24 md:mt-32 mx-auto max-w-2xl rounded-3xl shadow-2xl px-8 py-14 flex flex-col items-center text-center border border-yellow-200 bg-linear-to-br from-white/80 via-yellow-50/20 to-yellow-100/60 backdrop-blur-md ring-1 ring-inset ring-yellow-200/30">
           <h3 className="text-3xl md:text-4xl font-extrabold text-gray-900 mb-6 tracking-tight drop-shadow">
             Ce ne diferențiază?
           </h3>
@@ -153,7 +153,7 @@ function ServiceCard({
           </li>
         ))}
       </ul>
-      <span className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-yellow-400/80 via-yellow-500/90 to-yellow-400/60 group-hover:h-2 group-hover:from-yellow-500/90 group-hover:via-yellow-400/90 group-hover:to-yellow-500/90 transition-all duration-400" />
+      <span className="absolute bottom-0 left-0 right-0 h-1.5 bg-linear-to-r from-yellow-400/80 via-yellow-500/90 to-yellow-400/60 group-hover:h-2 group-hover:from-yellow-500/90 group-hover:via-yellow-400/90 group-hover:to-yellow-500/90 transition-all duration-400" />
     </div>
   );
 }
