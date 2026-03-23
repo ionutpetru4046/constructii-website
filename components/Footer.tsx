@@ -11,7 +11,7 @@ export default function Footer() {
           <div className="flex flex-col h-full">
             <Link href="/" className="inline-flex items-center mb-4 group">
               <span className="text-3xl font-extrabold bg-clip-text text-transparent bg-linear-to-r from-yellow-500 to-yellow-300 tracking-tight group-hover:scale-105 transition-transform">
-                kadarHouse.ro
+                KadarHouse.ro
               </span>
             </Link>
             <p className="text-sm leading-relaxed text-gray-400 mb-5">
