@@ -60,7 +60,7 @@ export default function Navbar() {
             priority
           />
           <span className="font-extrabold text-2xl sm:text-3xl text-yellow-600 tracking-tight leading-none ml-1 group-hover:text-yellow-700 hidden xs:inline">
-            kadar<span className="text-gray-900">House</span>
+            Kadar<span className="text-gray-900">House</span>
           </span>
         </Link>
 
