@@ -36,7 +36,7 @@ export default function Navbar() {
 
   return (
     <nav
-      className={`fixed top-0 left-0 w-full z-[1050] transition-all duration-300
+      className={`fixed top-0 left-0 w-full z-1050 transition-all duration-300
         ${
           isScrolled
             ? "bg-white/80 backdrop-blur-lg shadow-[0_2px_16px_0_rgba(0,0,0,0.06)] border-b border-yellow-100/70"
@@ -97,10 +97,10 @@ export default function Navbar() {
         {/* Mobile Drawer + overlay */}
         <div
           className={`
-            fixed inset-0 z-[1100] 
+            fixed inset-0 z-1100 
             transition-all duration-300
             ${menuOpen ? "visible opacity-100 pointer-events-auto" : "invisible opacity-0 pointer-events-none"}
-            bg-gradient-to-br from-black/60 via-yellow-900/20 to-black/50
+            bg-linear-to-br from-black/60 via-yellow-900/20 to-black/50
             lg:hidden
           `}
         >
@@ -171,7 +171,7 @@ function NavLink({
         outline-none transition-all duration-200
         focus-visible:ring-2 focus-visible:ring-yellow-400/60
         ${highlight 
-          ? "bg-gradient-to-r from-yellow-500 via-yellow-600 to-yellow-700 text-white shadow-md hover:from-yellow-600 hover:to-yellow-800"
+          ? "bg-linear-to-r from-yellow-500 via-yellow-600 to-yellow-700 text-white shadow-md hover:from-yellow-600 hover:to-yellow-800"
           : "bg-white/60 text-yellow-700 hover:bg-yellow-50/80 hover:text-yellow-900"}
         group
       `}
