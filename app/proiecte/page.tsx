@@ -3,7 +3,7 @@ export default function ProiectePage() {
     <main className="min-h-screen bg-gradient-to-br from-yellow-50 via-white to-yellow-100 py-24">
       <div className="max-w-7xl mx-auto px-4 sm:px-8">
         <h1 className="text-5xl md:text-6xl font-extrabold tracking-tight mb-10 text-center text-gray-900 drop-shadow-sm">
-          <span className="bg-gradient-to-r from-yellow-500 via-yellow-700 to-yellow-600 bg-clip-text text-transparent">
+          <span className="bg-linear-to-r from-yellow-500 via-yellow-700 to-yellow-600 bg-clip-text text-transparent">
             Proiectele Noastre
           </span>
         </h1>
