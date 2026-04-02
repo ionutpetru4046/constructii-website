@@ -61,7 +61,7 @@ export default function ProiectePage() {
                   alt="Amenajare spațiu comercial"
                   className="w-full h-full object-cover transition-transform duration-400 group-hover:scale-105"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-yellow-100/75 to-transparent opacity-90 transition group-hover:opacity-70"></div>
+                <div className="absolute inset-0 bg-linear-to-t from-yellow-100/75 to-transparent opacity-90 transition group-hover:opacity-70"></div>
               </div>
               <div className="p-6 flex-1 flex flex-col gap-2">
                 <h3 className="text-xl font-bold text-yellow-700 flex items-center gap-2">
