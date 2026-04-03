@@ -82,7 +82,7 @@ export default function ProiectePage() {
           </h2>
           <a
             href="/contact"
-            className="inline-block bg-gradient-to-r from-yellow-500 via-yellow-600 to-yellow-700 text-white px-10 py-4 rounded-full font-semibold shadow-lg transition hover:from-yellow-600 hover:to-yellow-800 hover:scale-105 focus:outline-none focus-visible:ring-2 focus-visible:ring-yellow-400"
+            className="inline-block bg-linear-to-r from-yellow-500 via-yellow-600 to-yellow-700 text-white px-10 py-4 rounded-full font-semibold shadow-lg transition hover:from-yellow-600 hover:to-yellow-800 hover:scale-105 focus:outline-none focus-visible:ring-2 focus-visible:ring-yellow-400"
           >
             Solicită detalii despre proiectele noastre
           </a>
