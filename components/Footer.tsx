@@ -80,7 +80,7 @@ export default function Footer() {
               </li>
               <li className="flex items-center gap-3">
                 <FiMapPin className="text-yellow-400" />
-                <span>București, România</span>
+                <span>Oras Ales, Judetul Bihor, România</span>
               </li>
             </ul>
           </div>
