@@ -98,7 +98,7 @@ export default function Services() {
             href="/contact"
             className="mt-8 px-8 py-3 rounded-full text-white bg-linear-to-r from-yellow-500 to-yellow-600 hover:from-yellow-600 hover:to-yellow-700 text-lg font-bold shadow-lg transition duration-200"
           >
-            Cere o ofertă personalizată
+            Cere o ofertă Personalizată
           </Link>
         </div>
       </div>
