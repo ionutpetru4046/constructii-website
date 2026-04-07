@@ -23,7 +23,7 @@ export default function Services() {
         {/* Main Heading */}
         <h2 className="text-5xl md:text-6xl font-black text-center mb-7 tracking-tight text-gray-900 drop-shadow-lg">
           Expertiză &amp; Servicii Complete <br />
-          <span className="bg-gradient-to-r from-yellow-500 via-yellow-400 to-amber-300 text-transparent bg-clip-text">
+          <span className="bg-linear-to-r from-yellow-500 via-yellow-400 to-amber-300 text-transparent bg-clip-text">
             în Construcții
           </span>
         </h2>
