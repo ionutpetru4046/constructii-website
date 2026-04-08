@@ -12,7 +12,7 @@ import Link from "next/link";
 
 export default function Services() {
   return (
-    <section className="relative py-24 bg-gradient-to-br from-yellow-50 via-white to-gray-100 min-h-screen overflow-visible z-10">
+    <section className="relative py-24 bg-linear-to-br from-yellow-50 via-white to-gray-100 min-h-screen overflow-visible z-10">
       {/* Decorative pattern */}
       <div
         className="absolute inset-0 pointer-events-none bg-[url('/pattern-construction.svg')] bg-no-repeat bg-center opacity-10"
