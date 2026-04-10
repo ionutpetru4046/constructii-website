@@ -155,7 +155,7 @@ function ServiceCard({
         {items.map((item, idx) => (
           <li
             key={idx}
-            className="flex items-center gap-2 text-gray-700 text-base rounded-lg px-2 py-1 bg-gradient-to-r from-yellow-50/80 to-white/40"
+            className="flex items-center gap-2 text-gray-700 text-base rounded-lg px-2 py-1 bg-linear-to-r from-yellow-50/80 to-white/40"
           >
             <CheckCircle2 className="h-5 w-5 text-yellow-500 opacity-80" /> {item}
           </li>
