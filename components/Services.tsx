@@ -165,7 +165,7 @@ function ServiceCard({
         detalii
       </span>
       <div className="pointer-events-none absolute inset-0 rounded-[1.6rem] ring-1 ring-yellow-300/10 group-hover:ring-yellow-400/25 transition"></div>
-      <div className="pointer-events-none absolute -z-10 blur-2xl inset-8 md:inset-12 rounded-[2rem] bg-gradient-to-tr from-yellow-50/20 via-yellow-100/25 to-yellow-200/10" />
+      <div className="pointer-events-none absolute -z-10 blur-2xl inset-8 md:inset-12 rounded-4xl bg-gradient-to-tr from-yellow-50/20 via-yellow-100/25 to-yellow-200/10" />
     </div>
   );
 }
