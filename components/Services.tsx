@@ -122,7 +122,7 @@ export default function Services() {
           </ul>
           <Link
             href="/contact"
-            className="inline-block mt-4 md:mt-3 px-12 py-5 rounded-full bg-gradient-to-r from-yellow-500 via-yellow-600 to-yellow-700 hover:from-yellow-600 hover:to-yellow-800 text-xl font-bold text-white shadow-xl transition-all ring-2 ring-yellow-400/20"
+            className="inline-block mt-4 md:mt-3 px-12 py-5 rounded-full bg-linear-to-r from-yellow-500 via-yellow-600 to-yellow-700 hover:from-yellow-600 hover:to-yellow-800 text-xl font-bold text-white shadow-xl transition-all ring-2 ring-yellow-400/20"
           >
             Cere o ofertă personalizată
           </Link>
