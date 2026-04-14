@@ -182,7 +182,7 @@ function FeatureCard({
 }) {
   return (
     <div className="bg-white/80 border-2 border-yellow-100/70 rounded-[1.3rem] shadow-xl flex flex-col items-center hover:-translate-y-2 hover:shadow-yellow-200/70 transition-all duration-400 px-8 py-10 relative">
-      <div className="bg-yellow-50 border-[2px] border-yellow-200 rounded-full p-4 mb-4 flex items-center justify-center shadow group-hover:shadow-lg transition">
+      <div className="bg-yellow-50 border-2 border-yellow-200 rounded-full p-4 mb-4 flex items-center justify-center shadow group-hover:shadow-lg transition">
         {icon}
       </div>
       <h4 className="text-xl font-bold mb-2 text-gray-900 text-center">{title}</h4>
