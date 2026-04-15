@@ -55,7 +55,7 @@ export default function ContactPage() {
                 </div>
                 <div className="flex items-center gap-3">
                   <MapPin className="text-yellow-600" />
-                  <span>București, România</span>
+                  <span>Oradea, Judetul Bihor, România</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <Clock className="text-yellow-600" />
