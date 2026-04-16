@@ -111,11 +111,11 @@ export default function Footer() {
             © {new Date().getFullYear()} <span className="font-semibold text-yellow-400">kadarHouse.ro</span>. Toate drepturile rezervate.
           </span>
           <div className="flex gap-2 text-xs">
-            <Link href="/termeni" className="hover:text-yellow-300 underline underline-offset-4 transition">
+            <Link href="/Termeni&Conditii" className="hover:text-yellow-300 underline underline-offset-4 transition">
               Termeni & Condiții
             </Link>
             <span>·</span>
-            <Link href="/confidentialitate" className="hover:text-yellow-300 underline underline-offset-4 transition">
+            <Link href="/PoliticaConfidentialitate" className="hover:text-yellow-300 underline underline-offset-4 transition">
               Politica de confidențialitate
             </Link>
           </div>
