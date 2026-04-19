@@ -16,7 +16,7 @@ export default function TermsPage() {
         </svg>
       </div>
       <div className="relative z-10 w-full max-w-3xl bg-white/70 dark:bg-slate-900/70 shadow-lg rounded-xl backdrop-blur-[2px] border border-slate-200 dark:border-slate-700 px-8 py-12">
-        <h1 className="text-4xl sm:text-5xl font-extrabold mb-8 bg-gradient-to-r from-blue-600 via-blue-400 to-cyan-400 bg-clip-text text-transparent tracking-tight text-center">
+        <h1 className="text-4xl sm:text-5xl font-extrabold mb-8 bg-linear-to-r from-blue-600 via-blue-400 to-cyan-400 bg-clip-text text-transparent tracking-tight text-center">
           Termeni și Condiții
         </h1>
 
