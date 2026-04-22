@@ -1,6 +1,6 @@
 export default function PoliticaConfidentialitate() {
   return (
-    <main className="relative min-h-screen bg-gradient-to-tr from-slate-50 to-cyan-200 dark:from-slate-900 dark:to-teal-700 flex flex-col items-center py-16 px-4">
+    <main className="relative min-h-screen bg-linear-to-tr from-slate-50 to-cyan-200 dark:from-slate-900 dark:to-teal-700 flex flex-col items-center py-16 px-4">
       {/* Decorative SVG background */}
       <div className="absolute inset-0 pointer-events-none z-0">
         <svg className="w-full h-full" viewBox="0 0 1440 320" fill="none" xmlns="http://www.w3.org/2000/svg">
