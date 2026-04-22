@@ -17,7 +17,7 @@ export default function PoliticaConfidentialitate() {
         </svg>
       </div>
       <div className="relative z-10 w-full max-w-3xl bg-white/80 dark:bg-slate-900/80 shadow-xl rounded-2xl border border-slate-200 dark:border-slate-800 backdrop-blur-[2px] px-8 py-12">
-        <h1 className="text-4xl sm:text-5xl font-extrabold mb-8 bg-gradient-to-r from-cyan-700 via-sky-500 to-teal-400 bg-clip-text text-transparent tracking-tight text-center">
+        <h1 className="text-4xl sm:text-5xl font-extrabold mb-8 bg-linear-to-r from-cyan-700 via-sky-500 to-teal-400 bg-clip-text text-transparent tracking-tight text-center">
           Politica de Confidențialitate
         </h1>
 
