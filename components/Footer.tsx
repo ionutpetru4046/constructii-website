@@ -76,7 +76,7 @@ export default function Footer() {
               </li>
               <li className="flex items-center gap-3">
                 <FiMail className="text-yellow-400" />
-                <a href="mailto:contact@constructiipro.ro" className="hover:underline hover:text-yellow-400 transition">contact@constructiipro.ro</a>
+                <a href="mailto:contact@constructiipro.ro" className="hover:underline hover:text-yellow-400 transition">contactKadarHouse@yahoo.com</a>
               </li>
               <li className="flex items-center gap-3">
                 <FiMapPin className="text-yellow-400" />
@@ -108,7 +108,7 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="border-t border-gray-800/80 mt-12 pt-6 flex flex-col md:flex-row items-center justify-between text-sm gap-4">
           <span className="text-gray-500">
-            © {new Date().getFullYear()} <span className="font-semibold text-yellow-400">kadarHouse.ro</span>. Toate drepturile rezervate.
+            © {new Date().getFullYear()} <span className="font-semibold text-yellow-400">KadarHouse.ro</span>. Toate drepturile rezervate.
           </span>
           <div className="flex gap-2 text-xs">
             <Link href="/Termeni&Conditii" className="hover:text-yellow-300 underline underline-offset-4 transition">
