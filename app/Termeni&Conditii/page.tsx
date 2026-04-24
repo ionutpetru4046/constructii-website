@@ -100,7 +100,7 @@ export default function TermsPage() {
               Contact
             </h2>
             <p className="ml-10 text-slate-700 dark:text-slate-300">
-              Pentru întrebări, ne poți contacta la adresa de email afișată pe site.
+              Pentru întrebări, ne poți contacta la adresa de email afișată pe website.
             </p>
           </li>
         </ol>
