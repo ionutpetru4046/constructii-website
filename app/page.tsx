@@ -13,7 +13,8 @@ export default function Home() {
         <div
           className="absolute inset-0 w-full h-full z-0 bg-cover bg-center"
           style={{
-            backgroundImage: "url('/Construction.jpg'), linear-gradient(to bottom, rgba(0,0,0,0.60), rgba(0,0,0,0.85))",
+            backgroundImage:
+              "url('/Construction.jpg'), linear-gradient(to bottom, rgba(0,0,0,0.60), rgba(0,0,0,0.85))",
             backgroundBlendMode: "overlay",
           }}
           aria-hidden="true"
@@ -23,7 +24,8 @@ export default function Home() {
             Construcții și Renovări Profesionale
           </h1>
           <p className="mt-6 text-lg md:text-2xl text-gray-200 max-w-2xl mx-auto drop-shadow-lg">
-            Oferim servicii complete de construcții, renovări și amenajări interioare cu echipă calificată și materiale de calitate superioară.
+            Oferim servicii complete de construcții, renovări și amenajări
+            interioare cu echipă calificată și materiale de calitate superioară.
           </p>
           <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
             <Link
