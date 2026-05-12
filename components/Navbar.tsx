@@ -17,14 +17,12 @@ export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
   const menuRef = useRef<HTMLDivElement>(null);
 
-  // Modern sticky, subtle shadow & glass blur
   useEffect(() => {
-    const handleScroll = () => setIsScrolled(window.scrollY > 18);
+    const handleScroll = () => setIsScrolled(window.scrollY > 24);
     window.addEventListener("scroll", handleScroll, { passive: true });
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  // Close on outside tap (mobile)
   useEffect(() => {
     if (!menuOpen) return;
     const handleClick = (e: MouseEvent) => {
@@ -36,99 +34,92 @@ export default function Navbar() {
 
   return (
     <nav
-      className={`fixed top-0 left-0 w-full z-1050 transition-all duration-300
-        ${
-          isScrolled
-            ? "bg-white/80 backdrop-blur-lg shadow-[0_2px_16px_0_rgba(0,0,0,0.06)] border-b border-yellow-100/70"
-            : "bg-transparent shadow-none border-transparent"
-        }
+      className={`
+        fixed top-0 left-0 w-full z-50 bg-gradient-to-r from-blue-950 via-blue-900 to-blue-800
+        ${isScrolled ? "shadow-lg bg-opacity-95" : "bg-opacity-80"}
+        backdrop-blur-lg border-b border-blue-900/60 transition-all duration-500
       `}
-      style={{ WebkitBackdropFilter: isScrolled ? "blur(14px)" : "none" }}
+      style={{
+        WebkitBackdropFilter: "blur(11px)",
+      }}
     >
-      <div className="2xl:max-w-7xl max-w-[98vw] mx-auto flex items-center justify-between px-3 sm:px-8 py-2.5 min-h-[70px] relative">
-        {/* Logo - modern elevation, rounded, on hover scaled & color glow */}
+      <div className="max-w-7xl mx-auto flex items-center justify-between px-6 py-1.5 md:px-12 md:py-2 relative">
+        {/* Logo */}
         <Link
           href="/"
-          className="flex items-center gap-2 group shrink-0 transition"
           aria-label="kadarHouse.ro homepage"
+          className="flex items-center gap-2 group shrink-0 transition-all duration-150 hover:scale-105"
         >
-          <span className="inline-flex items-center justify-center h-14 w-14 sm:h-16 sm:w-16 rounded-xl overflow-hidden border-2 border-yellow-200 group-hover:border-yellow-400 shadow-lg bg-white/90 transition-all duration-150 group-hover:scale-105 group-hover:shadow-yellow-100/80">
+          <span className="inline-flex items-center justify-center h-12 w-12 md:h-14 md:w-14 rounded-lg bg-blue-900 shadow-xl border-2 border-blue-700 group-hover:border-yellow-400 transition-all duration-150">
             <Image
               src="/kadarHouse.jpeg"
               alt="kadarHouse Logo"
-              width={64}
-              height={64}
-              className="object-cover w-full h-full select-none"
+              width={56}
+              height={56}
+              className="object-cover w-full h-full rounded-md select-none border border-yellow-100/30"
               priority
             />
           </span>
-          <span className="select-none font-black text-[2.1rem] sm:text-3xl ml-1 leading-none text-gradient-to-br from-yellow-500 via-yellow-700 to-yellow-800 bg-clip-text text-transparent tracking-tight hidden xs:inline drop-shadow group-hover:from-yellow-600">
+          <span className="select-none font-bold text-[1.85rem] md:text-[2.2rem] tracking-tight bg-gradient-to-r from-yellow-200 via-yellow-400 to-yellow-600 bg-clip-text text-transparent drop-shadow-sm ml-1">
             Kadar
-            <span className="text-neutral-900 bg-none text-gradient-none font-extrabold">House</span>
+            <span className="text-white font-extrabold drop-shadow ml-1">House</span>
           </span>
         </Link>
 
-        {/* Desktop nav - new pill buttons, semi-glassy hover, indicator bar */}
-        <ul className="hidden lg:flex gap-4 items-center ml-7 relative">
+        {/* Desktop nav */}
+        <ul className="hidden xl:flex gap-1.5 items-center ml-12">
           {NAV_LINKS.map(({ href, label, highlight }) => (
-            <li key={href} className="relative">
+            <li key={href}>
               <NavLink href={href} highlight={highlight}>
                 {label}
               </NavLink>
             </li>
           ))}
         </ul>
-
-        {/* Mobile menu button floated right */}
+        {/* Hamburger Menu Button */}
         <button
           aria-label={menuOpen ? "Închide meniul" : "Deschide meniul"}
-          className="lg:hidden inline-flex items-center justify-center p-2 rounded-full
-          shadow shadow-yellow-100/30 ring-1 ring-yellow-300/30 bg-white/90
-          border border-yellow-100 hover:bg-yellow-50/80 focus-visible:ring-2 focus-visible:ring-yellow-300 transition-all"
-          onClick={() => setMenuOpen((open) => !open)}
+          className="xl:hidden p-2 flex items-center justify-center rounded-md group transition-all duration-150 bg-blue-800/60 hover:bg-blue-700/80 border border-blue-600 shadow-md focus-visible:ring-2 focus-visible:ring-yellow-400"
+          onClick={() => setMenuOpen((o) => !o)}
         >
           {menuOpen ? (
-            <X size={28} className="text-yellow-500 transition-transform duration-200 scale-110" />
+            <X size={28} className="text-yellow-300 scale-110 transition-transform duration-200" />
           ) : (
-            <Menu size={28} className="text-yellow-600" />
+            <Menu size={28} className="text-yellow-200" />
           )}
         </button>
 
         {/* Mobile Drawer + overlay */}
         <div
           className={`
-            fixed inset-0 z-1100 
-            transition-all duration-300
+            fixed inset-0 z-60 xl:hidden transition-all duration-300
             ${menuOpen ? "visible opacity-100 pointer-events-auto" : "invisible opacity-0 pointer-events-none"}
-            bg-linear-to-br from-black/60 via-yellow-900/20 to-black/50
-            lg:hidden
+            bg-gradient-to-br from-blue-950/90 via-blue-800/70 to-blue-900/75
           `}
         >
           <div
             ref={menuRef}
             className={`
-              absolute top-0 right-0
-              h-full w-[85vw] max-w-[375px]
-              bg-white/95 shadow-2xl
-              border-l-2 border-yellow-100
-              rounded-l-3xl
-              flex flex-col gap-2 py-7 px-7
+              absolute top-0 right-0 h-full w-[82vw] max-w-[348px]
+              bg-gradient-to-br from-blue-900 via-blue-950 to-blue-800/90
+              shadow-2xl border-l-2 border-yellow-400/25
+              rounded-l-3xl flex flex-col min-h-full py-5 px-5
               transition-transform duration-300
               ${menuOpen ? "translate-x-0" : "translate-x-full"}
             `}
             onClick={e => e.stopPropagation()}
           >
-            <div className="flex items-center justify-between mb-5">
-              <span className="font-bold text-yellow-700 text-xl tracking-wide drop-shadow-sm">Meniu</span>
+            <div className="flex items-center justify-between mb-4">
+              <span className="font-extrabold text-yellow-200 text-lg tracking-wider uppercase">Meniu</span>
               <button
                 aria-label="Închide meniul"
-                className="flex items-center justify-center p-2 rounded-full hover:bg-yellow-50 transition"
+                className="flex items-center justify-center p-2 rounded-full hover:bg-yellow-400/10 transition"
                 onClick={() => setMenuOpen(false)}
               >
-                <X size={26} className="text-yellow-500" />
+                <X size={22} className="text-yellow-300" />
               </button>
             </div>
-            <ul className="flex flex-col gap-3 mt-4">
+            <ul className="flex flex-col gap-2.5 mt-2">
               {NAV_LINKS.map(({ href, label, highlight }) => (
                 <li key={href}>
                   <NavLink
@@ -142,7 +133,9 @@ export default function Navbar() {
               ))}
             </ul>
             <div className="flex-1" />
-            <div className="text-sm text-gray-500 mt-4 mb-2 opacity-60">© 2024 KadarHouse</div>
+            <div className="mx-auto mt-7 mb-2 text-xs text-blue-200/75 tracking-wide font-medium">
+              &copy; 2024 KadarHouse
+            </div>
           </div>
         </div>
       </div>
@@ -150,7 +143,7 @@ export default function Navbar() {
   );
 }
 
-// Modern NavLink: pill button, animated underline, modern color & hover
+// New NavLink style: neon-like border, focus ring, sharp pill, color contrasts
 function NavLink({
   href,
   children,
@@ -167,23 +160,22 @@ function NavLink({
       href={href}
       onClick={onClick}
       className={`
-        relative flex items-center gap-1 px-5 py-2.5 rounded-full font-semibold
-        outline-none transition-all duration-200
-        focus-visible:ring-2 focus-visible:ring-yellow-400/60
-        ${highlight 
-          ? "bg-linear-to-r from-yellow-500 via-yellow-600 to-yellow-700 text-white shadow-md hover:from-yellow-600 hover:to-yellow-800"
-          : "bg-white/60 text-yellow-700 hover:bg-yellow-50/80 hover:text-yellow-900"}
-        group
+        relative flex items-center gap-1 px-5 py-2.5 rounded-xl font-bold tracking-wide
+        uppercase text-[1rem] transition-all duration-200 border-2
+        group outline-none
+        ${highlight
+          ? "border-yellow-400 bg-yellow-400/90 text-blue-900 shadow-lg hover:bg-yellow-400 hover:scale-105 hover:shadow-yellow-200 focus-visible:ring-2 focus-visible:ring-yellow-300"
+          : "border-blue-800 bg-blue-800/60 text-yellow-50 hover:bg-blue-700/80 hover:border-yellow-300 hover:scale-105 focus-visible:ring-2 focus-visible:ring-blue-200"}
       `}
       tabIndex={0}
     >
       {children}
-      {/* Animated underline indicator (desktop only) */}
+      {/* Animated bottom highlight */}
       <span
         className={`
-        absolute left-8 right-8 -bottom-1 h-[3px] rounded bg-yellow-400
-        scale-x-0 opacity-75 group-hover:scale-x-100 group-focus-visible:scale-x-100 transition-transform duration-300
-        ${highlight ? "group-hover:bg-yellow-700" : "" }
+          absolute left-6 right-6 -bottom-0.5 h-[2px] rounded-full bg-yellow-400
+          scale-x-0 opacity-80 group-hover:scale-x-100 group-focus-visible:scale-x-100 transition-transform duration-300
+          ${highlight ? "group-hover:bg-yellow-700 bg-yellow-500" : ""}
         `}
         aria-hidden="true"
       />
