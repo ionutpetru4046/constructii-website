@@ -13,7 +13,7 @@ import {
 // Gradient overlays, card glassmorphism and minimal blue accent style
 export default function ContactPage() {
   return (
-    <main className="min-h-screen bg-gradient-to-bl from-sky-50 via-white to-sky-100 flex items-center py-10 md:py-20">
+    <main className="min-h-screen bg-linear-to-bl from-sky-50 via-white to-sky-100 flex items-center py-10 md:py-20">
       <div className="w-full max-w-6xl mx-auto px-2 sm:px-6">
         {/* Hero Section */}
         <section className="flex flex-col items-center mb-14 gap-6">
@@ -142,7 +142,7 @@ export default function ContactPage() {
               </div>
               <button
                 type="submit"
-                className="w-full py-2.5 rounded-xl text-white bg-gradient-to-tr from-sky-500 to-sky-700 hover:from-sky-600 hover:to-sky-800 text-base font-bold shadow-md transition"
+                className="w-full py-2.5 rounded-xl text-white bg-linear-to-tr from-sky-500 to-sky-700 hover:from-sky-600 hover:to-sky-800 text-base font-bold shadow-md transition"
               >
                 Trimite mesaj
               </button>
@@ -165,7 +165,7 @@ export default function ContactPage() {
           </aside>
         </div>
         {/* CTA Banner */}
-        <section className="mt-6 md:mt-16 py-8 md:py-12 px-4 md:px-10 bg-gradient-to-r from-sky-400 via-sky-500 to-sky-600 rounded-2xl shadow-2xl flex flex-col gap-5 md:flex-row items-center justify-between text-center md:text-left">
+        <section className="mt-6 md:mt-16 py-8 md:py-12 px-4 md:px-10 bg-linear-to-r from-sky-400 via-sky-500 to-sky-600 rounded-2xl shadow-2xl flex flex-col gap-5 md:flex-row items-center justify-between text-center md:text-left">
           <div className="text-white">
             <h3 className="text-xl md:text-2xl font-bold mb-1 drop-shadow">Pregătit să începi un proiect?</h3>
             <p className="md:text-lg text-white/95">Completează formularul de mai sus sau sună-ne direct – te ajutăm de la idee la implementare!</p>
