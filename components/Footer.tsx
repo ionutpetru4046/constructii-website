@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { FiPhone, FiMail, FiMapPin, FiClock, FiFacebook, FiInstagram } from "react-icons/fi";
 
 export default function Footer() {
@@ -9,8 +10,18 @@ export default function Footer() {
 
           {/* Logo & Company Info */}
           <div className="flex flex-col h-full">
-            <Link href="/" className="inline-flex items-center mb-4 group">
-              <span className="text-3xl font-extrabold bg-clip-text text-transparent bg-linear-to-r from-yellow-500 to-yellow-300 tracking-tight group-hover:scale-105 transition-transform">
+            <Link href="/" className="inline-flex items-center mb-4 group" aria-label="KadarHouse.ro Acasa">
+              <div className="mr-3 flex items-center">
+                <Image
+                  src="/kadarHouse.jpeg"
+                  alt="KadarHouse.ro Logo"
+                  width={42}
+                  height={42}
+                  className="rounded-md shadow group-hover:scale-105 transition-transform duration-200"
+                  priority
+                />
+              </div>
+              <span className="text-2xl md:text-3xl font-extrabold bg-clip-text text-transparent bg-linear-to-r from-yellow-500 to-yellow-300 tracking-tight group-hover:scale-105 transition-transform duration-200">
                 KadarHouse.ro
               </span>
             </Link>
