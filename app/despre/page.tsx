@@ -6,7 +6,7 @@ import {
 
 export default function AboutPage() {
   return (
-    <main className="min-h-screen bg-gradient-to-tl from-sky-50 via-white to-sky-100 py-10 md:py-20 flex items-center">
+    <main className="min-h-screen bg-linear-to-tl from-sky-50 via-white to-sky-100 py-10 md:py-20 flex items-center">
       <div className="w-full max-w-6xl mx-auto px-2 sm:px-6">
         <h1 className="text-4xl md:text-5xl font-bold text-center mb-10 md:mb-16 tracking-tight text-sky-700 drop-shadow">
           Despre <span className="text-sky-500">Noi</span>
@@ -77,7 +77,7 @@ export default function AboutPage() {
           </h2>
           <a
             href="/contact"
-            className="inline-block bg-gradient-to-tr from-sky-400 to-sky-500 hover:from-sky-500 hover:to-sky-600 text-white px-8 py-3 md:px-10 md:py-4 font-semibold rounded-full shadow-lg hover:scale-105 transition text-base md:text-lg"
+            className="inline-block bg-linear-to-tr from-sky-400 to-sky-500 hover:from-sky-500 hover:to-sky-600 text-white px-8 py-3 md:px-10 md:py-4 font-semibold rounded-full shadow-lg hover:scale-105 transition text-base md:text-lg"
           >
             Contactează-ne acum
           </a>
