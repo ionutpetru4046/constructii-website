@@ -35,7 +35,7 @@ export default function Navbar() {
   return (
     <nav
       className={`
-        fixed top-0 left-0 w-full z-50 bg-gradient-to-r from-blue-950 via-blue-900 to-blue-800
+        fixed top-0 left-0 w-full z-50 bg-linear-to-r from-blue-950 via-blue-900 to-blue-800
         ${isScrolled ? "shadow-lg bg-opacity-95" : "bg-opacity-80"}
         backdrop-blur-lg border-b border-blue-900/60 transition-all duration-500
       `}
@@ -60,7 +60,7 @@ export default function Navbar() {
               priority
             />
           </span>
-          <span className="select-none font-bold text-[1.85rem] md:text-[2.2rem] tracking-tight bg-gradient-to-r from-yellow-200 via-yellow-400 to-yellow-600 bg-clip-text text-transparent drop-shadow-sm ml-1">
+          <span className="select-none font-bold text-[1.85rem] md:text-[2.2rem] tracking-tight bg-linear-to-r from-yellow-200 via-yellow-400 to-yellow-600 bg-clip-text text-transparent drop-shadow-sm ml-1">
             Kadar
             <span className="text-white font-extrabold drop-shadow ml-1">House</span>
           </span>
