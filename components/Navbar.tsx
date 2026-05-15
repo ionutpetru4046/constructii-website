@@ -94,14 +94,14 @@ export default function Navbar() {
           className={`
             fixed inset-0 z-60 xl:hidden transition-all duration-300
             ${menuOpen ? "visible opacity-100 pointer-events-auto" : "invisible opacity-0 pointer-events-none"}
-            bg-gradient-to-br from-blue-950/90 via-blue-800/70 to-blue-900/75
+            bg-linear-to-br from-blue-950/90 via-blue-800/70 to-blue-900/75
           `}
         >
           <div
             ref={menuRef}
             className={`
               absolute top-0 right-0 h-full w-[82vw] max-w-[348px]
-              bg-gradient-to-br from-blue-900 via-blue-950 to-blue-800/90
+              bg-linear-to-br from-blue-900 via-blue-950 to-blue-800/90
               shadow-2xl border-l-2 border-yellow-400/25
               rounded-l-3xl flex flex-col min-h-full py-5 px-5
               transition-transform duration-300
