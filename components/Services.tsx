@@ -13,14 +13,14 @@ import Link from "next/link";
 // Main Services Page with new dark/light themed modern style
 export default function Services() {
   return (
-    <section className="relative min-h-screen py-16 px-2 md:px-6 lg:px-8 bg-gradient-to-br from-[#121d2c] via-[#223144] to-[#192435] overflow-visible z-0">
+    <section className="relative min-h-screen py-16 px-2 md:px-6 lg:px-8 bg-linear-to-br from-[#121d2c] via-[#223144] to-[#192435] overflow-visible z-0">
       {/* Decorative gradients / lights */}
       <div
         className="absolute inset-0 pointer-events-none"
         aria-hidden="true"
       >
-        <div className="absolute top-0 left-0 w-60 h-60 bg-gradient-to-tr from-yellow-400/10 via-amber-500/10 to-transparent rounded-full blur-3xl animate-pulse z-0" />
-        <div className="absolute bottom-8 right-8 w-52 h-52 bg-gradient-to-br from-amber-300/20 via-yellow-200/20 to-transparent rounded-full blur-3xl animate-pulse delay-200 z-0" />
+        <div className="absolute top-0 left-0 w-60 h-60 bg-linear-to-tr from-yellow-400/10 via-amber-500/10 to-transparent rounded-full blur-3xl animate-pulse z-0" />
+        <div className="absolute bottom-8 right-8 w-52 h-52 bg-linear-to-br from-amber-300/20 via-yellow-200/20 to-transparent rounded-full blur-3xl animate-pulse delay-200 z-0" />
         <div className="absolute inset-0 pointer-events-none bg-[url('/pattern-construction.svg')] bg-no-repeat bg-center opacity-[0.03] mix-blend-soft-light z-0" />
       </div>
 
@@ -30,7 +30,7 @@ export default function Services() {
         <h1 className="text-3xl xs:text-4xl md:text-5xl font-extrabold text-center mb-3 tracking-tight text-white leading-tight drop-shadow-lg">
           Servicii Complete
           <br className="hidden sm:block" />
-          <span className="block mt-2 text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 via-amber-300 to-yellow-500 animate-gradient">
+          <span className="block mt-2 text-transparent bg-clip-text bg-linear-to-r from-yellow-400 via-amber-300 to-yellow-500 animate-gradient">
             pentru Construcții Moderne
           </span>
         </h1>
