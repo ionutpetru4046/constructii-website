@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function WhyChooseUs() {
   return (
-    <section className="relative py-28 min-h-[75vh] bg-gradient-to-br from-blue-50 via-white to-yellow-50 overflow-visible z-10">
+    <section className="relative py-28 min-h-[75vh] bg-linear-to-br from-blue-50 via-white to-yellow-50 overflow-visible z-10">
       <div
         className="absolute inset-0 z-0 pointer-events-none opacity-10 bg-[url('/pattern-construction.svg')] bg-no-repeat bg-center"
         aria-hidden="true"
@@ -80,7 +80,7 @@ export default function WhyChooseUs() {
         <div className="flex justify-center mt-14">
           <Link
             href="/contact"
-            className="inline-block px-10 py-5 rounded-full text-white bg-gradient-to-r from-yellow-500 via-yellow-400 to-yellow-600 hover:from-yellow-600 hover:to-yellow-700 focus-visible:ring-4 focus-visible:ring-yellow-400/60 text-xl font-extrabold shadow-2xl tracking-tight shadow-yellow-200 transition-all duration-250 outline-none"
+            className="inline-block px-10 py-5 rounded-full text-white bg-linear-to-r from-yellow-500 via-yellow-400 to-yellow-600 hover:from-yellow-600 hover:to-yellow-700 focus-visible:ring-4 focus-visible:ring-yellow-400/60 text-xl font-extrabold shadow-2xl tracking-tight shadow-yellow-200 transition-all duration-250 outline-none"
           >
             Cere o ofertă personalizată
           </Link>
@@ -101,7 +101,7 @@ function WhyCard({
 }) {
   return (
     <div className="relative bg-white/80 border border-yellow-100 backdrop-blur-xl p-8 rounded-3xl shadow-2xl flex flex-col items-center hover:-translate-y-2 hover:shadow-yellow-200 hover:shadow-[0_10px_32px_0_rgba(255,221,36,0.07)] transition-all duration-300 group">
-      <div className="bg-gradient-to-br from-yellow-300 via-yellow-400 to-yellow-500 rounded-full p-4 mb-4 flex items-center justify-center shadow-md border-2 border-yellow-100 group-hover:ring-4 group-hover:ring-yellow-100/80 transition">
+      <div className="bg-linear-to-br from-yellow-300 via-yellow-400 to-yellow-500 rounded-full p-4 mb-4 flex items-center justify-center shadow-md border-2 border-yellow-100 group-hover:ring-4 group-hover:ring-yellow-100/80 transition">
         {icon}
       </div>
       <h3 className="text-2xl font-bold mb-2 text-blue-900 text-center drop-shadow">{title}</h3>
