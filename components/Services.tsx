@@ -100,7 +100,7 @@ export default function Services() {
           />
         </div>
         {/* WHY US - accent box */}
-        <section className="w-full max-w-[98vw] sm:max-w-2xl mx-auto px-4 xs:px-8 py-7 xs:py-10 bg-gradient-to-tr from-yellow-50/95 to-yellow-100/80 border border-yellow-100 rounded-2xl md:rounded-3xl shadow-2xl flex flex-col items-center text-center ring-1 ring-amber-100/30">
+        <section className="w-full max-w-[98vw] sm:max-w-2xl mx-auto px-4 xs:px-8 py-7 xs:py-10 bg-linear-to-tr from-yellow-50/95 to-yellow-100/80 border border-yellow-100 rounded-2xl md:rounded-3xl shadow-2xl flex flex-col items-center text-center ring-1 ring-amber-100/30">
           <h3 className="text-2xl xs:text-3xl md:text-4xl font-semibold text-neutral-800 mb-5 opacity-90">
             Ce ne deosebește?
           </h3>
@@ -123,7 +123,7 @@ export default function Services() {
           </ul>
           <Link
             href="/contact"
-            className="mt-1 sm:mt-2 px-8 py-3 rounded-full text-white bg-gradient-to-r from-yellow-400 via-amber-300 to-yellow-500 hover:from-yellow-500 hover:to-yellow-600 transition-all duration-150 font-bold text-base md:text-lg shadow-xl focus:outline-none focus-visible:ring-2 focus-visible:ring-yellow-300"
+            className="mt-1 sm:mt-2 px-8 py-3 rounded-full text-white bg-linear-to-r from-yellow-400 via-amber-300 to-yellow-500 hover:from-yellow-500 hover:to-yellow-600 transition-all duration-150 font-bold text-base md:text-lg shadow-xl focus:outline-none focus-visible:ring-2 focus-visible:ring-yellow-300"
           >
             Solicită ofertă rapidă
           </Link>
@@ -146,9 +146,9 @@ function ServiceCard({
   items: string[];
 }) {
   return (
-    <div className="relative bg-gradient-to-br from-[#171C21] via-[#202c3a]/80 to-[#222f3d]/90 border border-yellow-200/20 shadow-xl group rounded-xl flex flex-col items-start min-h-[340px] h-full px-5 py-7 sm:px-6 sm:py-8 gap-2 transition-all duration-300 hover:border-yellow-400/70 hover:scale-[1.015] overflow-hidden">
+    <div className="relative bg-linear-to-br from-[#171C21] via-[#202c3a]/80 to-[#222f3d]/90 border border-yellow-200/20 shadow-xl group rounded-xl flex flex-col items-start min-h-[340px] h-full px-5 py-7 sm:px-6 sm:py-8 gap-2 transition-all duration-300 hover:border-yellow-400/70 hover:scale-[1.015] overflow-hidden">
       <div className="mb-2 flex items-center justify-center">
-        <span className="bg-gradient-to-tr from-yellow-300/60 via-yellow-100/20 to-transparent rounded-full p-3 mr-2">
+        <span className="bg-linear-to-tr from-yellow-300/60 via-yellow-100/20 to-transparent rounded-full p-3 mr-2">
           {icon}
         </span>
       </div>
