@@ -169,7 +169,7 @@ function ServiceCard({
         vezi detalii
       </span>
       <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-yellow-200/10 group-hover:ring-yellow-300/30 transition"></div>
-      <div className="pointer-events-none absolute -z-10 blur-xl inset-10 rounded-2xl bg-gradient-to-br from-yellow-100/5 via-yellow-200/10 to-yellow-300/5" />
+      <div className="pointer-events-none absolute -z-10 blur-xl inset-10 rounded-2xl bg-linear-to-br from-yellow-100/5 via-yellow-200/10 to-yellow-300/5" />
     </div>
   );
 }
@@ -185,7 +185,7 @@ function FeatureCard({
   description: string;
 }) {
   return (
-    <div className="bg-gradient-to-br from-white/95 via-yellow-100/80 to-yellow-50/90 border border-yellow-100/60 rounded-xl shadow-lg flex flex-col items-center hover:-translate-y-2 hover:shadow-yellow-200/90 transition-all duration-300 px-6 py-7 sm:px-8 sm:py-8">
+    <div className="bg-linear-to-br from-white/95 via-yellow-100/80 to-yellow-50/90 border border-yellow-100/60 rounded-xl shadow-lg flex flex-col items-center hover:-translate-y-2 hover:shadow-yellow-200/90 transition-all duration-300 px-6 py-7 sm:px-8 sm:py-8">
       <div className="bg-yellow-50 rounded-full p-2 mb-3 flex items-center justify-center border border-yellow-200 shadow">
         {icon}
       </div>
