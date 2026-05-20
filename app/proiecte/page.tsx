@@ -1,9 +1,9 @@
 export default function ProiectePage() {
   return (
-    <main className="min-h-screen bg-gradient-to-br from-blue-900 via-blue-700 to-yellow-500 py-24">
+    <main className="min-h-screen bg-linear-to-br from-blue-900 via-blue-700 to-yellow-500 py-24">
       <div className="max-w-7xl mx-auto px-4 sm:px-8">
         <h1 className="text-5xl md:text-6xl font-extrabold tracking-tight mb-10 text-center drop-shadow-lg">
-          <span className="bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 bg-clip-text text-transparent">
+          <span className="bg-linear-to-r from-yellow-400 via-yellow-300 to-yellow-500 bg-clip-text text-transparent">
             Proiectele Noastre
           </span>
         </h1>
