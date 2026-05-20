@@ -14,7 +14,7 @@ export default function ProiectePage() {
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {/* Card 1 */}
-            <div className="group bg-gradient-to-t from-blue-950 via-blue-900/95 to-yellow-50/90 border border-blue-800 rounded-2xl shadow-lg transition hover:scale-105 hover:shadow-2xl overflow-hidden flex flex-col">
+            <div className="group bg-linear-to-t from-blue-950 via-blue-900/95 to-yellow-50/90 border border-blue-800 rounded-2xl shadow-lg transition hover:scale-105 hover:shadow-2xl overflow-hidden flex flex-col">
               <div className="relative w-full h-52 overflow-hidden">
                 <img
                   src="/House1.jpg"
