@@ -7,7 +7,7 @@ export default function Services() {
   return (
     <section
       id="servicii"
-      className="relative isolate overflow-visible pt-32 pb-24 min-h-screen bg-neutral-950 bg-gradient-to-tr from-neutral-900 via-neutral-950 to-[#232324]"
+      className="relative isolate overflow-visible pt-32 pb-24 min-h-screen bg-neutral-950 bg-linear-to-tr from-neutral-900 via-neutral-950 to-[#232324]"
     >
       {/* Background accents using navbar-like palette */}
       <div className="absolute inset-0 pointer-events-none z-0">
@@ -94,7 +94,7 @@ export default function Services() {
         </div>
 
         {/* Why Us Section */}
-        <section className="mt-24 md:mt-32 mx-auto max-w-2xl rounded-3xl shadow-2xl px-8 py-14 flex flex-col items-center text-center border border-[#F2BC57]/30 bg-gradient-to-br from-[#232324]/90 via-neutral-950/75 to-[#232324]/90 backdrop-blur-2xl ring-1 ring-inset ring-[#F2BC57]/10">
+        <section className="mt-24 md:mt-32 mx-auto max-w-2xl rounded-3xl shadow-2xl px-8 py-14 flex flex-col items-center text-center border border-[#F2BC57]/30 bg-linear-to-br from-[#232324]/90 via-neutral-950/75 to-[#232324]/90 backdrop-blur-2xl ring-1 ring-inset ring-[#F2BC57]/10">
           <h3 className="text-3xl md:text-4xl font-extrabold text-white mb-6 tracking-tight drop-shadow">
             Ce ne diferențiază?
           </h3>
