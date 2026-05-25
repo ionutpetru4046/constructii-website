@@ -120,7 +120,7 @@ export default function Services() {
           </ul>
           <a
             href="/contact"
-            className="inline-block mt-4 md:mt-3 px-12 py-5 rounded-full bg-gradient-to-r from-[#F2BC57] via-[#F7D484] to-[#F2BC57] hover:from-[#F7D484] hover:to-[#F2BC57] text-xl font-bold text-[#232324] shadow-xl transition-all ring-2 ring-[#F2BC57]/20"
+            className="inline-block mt-4 md:mt-3 px-12 py-5 rounded-full bg-linear-to-r from-[#F2BC57] via-[#F7D484] to-[#F2BC57] hover:from-[#F7D484] hover:to-[#F2BC57] text-xl font-bold text-[#232324] shadow-xl transition-all ring-2 ring-[#F2BC57]/20"
           >
             Cere o ofertă personalizată
           </a>
