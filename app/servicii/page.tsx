@@ -144,7 +144,7 @@ function ServiceCard({
 }) {
   return (
     <div className="relative bg-[#232324]/85 backdrop-blur-lg border-2 border-[#F2BC57]/20 shadow-xl group hover:shadow-[#F2BC57]/40 hover:scale-105 transition-all duration-400 p-7 md:p-9 rounded-2xl flex flex-col items-center min-h-[380px] overflow-hidden">
-      <div className="bg-gradient-to-tr from-[#F2BC57]/10 via-[#F7D484]/15 to-white/0 rounded-full mb-6 flex items-center justify-center p-4 border border-[#F2BC57]/60 group-hover:scale-110 transition-all drop-shadow">
+      <div className="bg-linear-to-tr from-[#F2BC57]/10 via-[#F7D484]/15 to-white/0 rounded-full mb-6 flex items-center justify-center p-4 border border-[#F2BC57]/60 group-hover:scale-110 transition-all drop-shadow">
         {icon}
       </div>
       <h3 className="text-2xl font-extrabold text-[#F7D484] text-center mb-1 leading-relaxed tracking-tight">{title}</h3>
@@ -156,7 +156,7 @@ function ServiceCard({
           </li>
         ))}
       </ul>
-      <span className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-[#F2BC57]/80 via-[#F7D484]/90 to-[#F2BC57]/60 group-hover:h-2 group-hover:from-[#F7D484]/90 group-hover:via-[#F2BC57]/90 group-hover:to-[#F7D484]/90 transition-all duration-400" />
+      <span className="absolute bottom-0 left-0 right-0 h-1.5 bg-linear-to-r from-[#F2BC57]/80 via-[#F7D484]/90 to-[#F2BC57]/60 group-hover:h-2 group-hover:from-[#F7D484]/90 group-hover:via-[#F2BC57]/90 group-hover:to-[#F7D484]/90 transition-all duration-400" />
     </div>
   );
 }
