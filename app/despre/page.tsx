@@ -68,7 +68,7 @@ export default function AboutPage() {
 
         {/* Call To Action Modern */}
         <section className="flex flex-col items-center justify-center mb-2">
-          <div className="rounded-2xl bg-gradient-to-r from-[#F2BC57]/80 via-[#F7D484]/90 to-[#F2BC57]/60 px-8 md:px-16 py-8 shadow-2xl ring-1 ring-[#F2BC57]/20 flex flex-col items-center w-full max-w-xl gap-5">
+          <div className="rounded-2xl bg-linear-to-r from-[#F2BC57]/80 via-[#F7D484]/90 to-[#F2BC57]/60 px-8 md:px-16 py-8 shadow-2xl ring-1 ring-[#F2BC57]/20 flex flex-col items-center w-full max-w-xl gap-5">
             <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-neutral-950 text-center drop-shadow-sm">
               Vrei să lucrăm împreună?
             </h2>
