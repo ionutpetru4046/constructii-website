@@ -9,13 +9,6 @@ import {
 } from "lucide-react";
 import Link from "next/link";
 
-// COLORS according with navbar/footer
-// Primary dark: #18181A
-// Accent medium: #232324
-// Gold: #F2BC57
-// Off gold: #F7D484
-// White for contrast where needed
-
 export default function WhyChooseUs() {
   return (
     <section className="relative py-28 md:py-36 min-h-[75vh] bg-gradient-to-br from-[#18181A] via-[#232324] to-[#232324] overflow-visible z-10">
