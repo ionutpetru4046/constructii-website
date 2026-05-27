@@ -6,11 +6,11 @@ import {
 
 export default function AboutPage() {
   return (
-    <main className="min-h-screen bg-gradient-to-br from-[#232324] via-neutral-950 to-[#18181A] py-14 md:py-24 flex items-center justify-center">
+    <main className="min-h-screen bg-linear-to-br from-[#232324] via-neutral-950 to-[#18181A] py-14 md:py-24 flex items-center justify-center">
       <div className="w-full max-w-5xl mx-auto px-3 sm:px-8">
         {/* Modern Glass Card */}
         <section className="relative rounded-3xl bg-white/5 backdrop-blur-2xl border border-[#F2BC57]/20 shadow-[0_6px_48px_0_rgba(242,188,87,0.18)] py-12 px-6 md:px-14 lg:px-20 mb-16 flex flex-col gap-10">
-          <h1 className="text-center text-5xl font-extrabold bg-gradient-to-tr from-[#F2BC57] via-[#F7D484] to-white bg-clip-text text-transparent tracking-tight drop-shadow-lg mb-6">
+          <h1 className="text-center text-5xl font-extrabold bg-linear-to-tr from-[#F2BC57] via-[#F7D484] to-white bg-clip-text text-transparent tracking-tight drop-shadow-lg mb-6">
             <span className="text-[#F2BC57]">Despre</span> Noi
           </h1>
 
