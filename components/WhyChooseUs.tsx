@@ -11,7 +11,7 @@ import Link from "next/link";
 
 export default function WhyChooseUs() {
   return (
-    <section className="relative py-28 md:py-36 min-h-[75vh] bg-gradient-to-br from-[#18181A] via-[#232324] to-[#232324] overflow-visible z-10">
+    <section className="relative py-28 md:py-36 min-h-[75vh] bg-linear-to-br from-[#18181A] via-[#232324] to-[#232324] overflow-visible z-10">
       {/* Decorative pattern bg */}
       <div
         className="absolute inset-0 z-0 pointer-events-none opacity-10 bg-[url('/pattern-construction.svg')] bg-no-repeat bg-center"
@@ -20,7 +20,7 @@ export default function WhyChooseUs() {
       {/* Card container */}
       <div className="max-w-7xl mx-auto px-4 sm:px-8 relative z-10">
         {/* Heading */}
-        <h2 className="text-center text-4xl sm:text-5xl md:text-6xl font-black mb-7 tracking-tight bg-gradient-to-tr from-[#F2BC57] via-[#F7D484] to-white bg-clip-text text-transparent drop-shadow-2xl">
+        <h2 className="text-center text-4xl sm:text-5xl md:text-6xl font-black mb-7 tracking-tight bg-linear-to-tr from-[#F2BC57] via-[#F7D484] to-white bg-clip-text text-transparent drop-shadow-2xl">
           De ce să ne alegi pe noi?
         </h2>
         <p className="text-center text-xl md:text-2xl text-[#F2BC57] max-w-3xl mx-auto mb-14 font-medium drop-shadow">
