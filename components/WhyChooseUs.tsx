@@ -77,7 +77,7 @@ export default function WhyChooseUs() {
 
         {/* Short extra benefits */}
         <ul className="mx-auto max-w-3xl flex flex-col md:flex-row items-center justify-center gap-5 text-[#F2BC57] font-semibold text-base md:text-lg">
-          <li className="flex items-center gap-3 bg-gradient-to-r from-[#232324]/90 to-[#18181A]/90 border border-[#F2BC57]/15 shadow-lg px-6 py-4 rounded-xl backdrop-blur-md hover:ring-2 hover:ring-[#F2BC57]/60 transition-all duration-200">
+          <li className="flex items-center gap-3 bg-linear-to-r from-[#232324]/90 to-[#18181A]/90 border border-[#F2BC57]/15 shadow-lg px-6 py-4 rounded-xl backdrop-blur-md hover:ring-2 hover:ring-[#F2BC57]/60 transition-all duration-200">
             <Wrench className="h-6 w-6 text-[#F2BC57]" />
             <span className="whitespace-pre-line text-[#F2BC57]/95">
               Gestionăm proiectul de la început până la sfârșit – tu alegi, noi ne ocupăm de tot!
