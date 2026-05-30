@@ -83,13 +83,13 @@ export default function WhyChooseUs() {
               Gestionăm proiectul de la început până la sfârșit – tu alegi, noi ne ocupăm de tot!
             </span>
           </li>
-          <li className="flex items-center gap-3 bg-gradient-to-r from-[#232324]/90 to-[#18181A]/90 border border-[#F2BC57]/15 shadow-lg px-6 py-4 rounded-xl backdrop-blur-md hover:ring-2 hover:ring-[#F2BC57]/60 transition-all duration-200">
+          <li className="flex items-center gap-3 bg-linear-to-r from-[#232324]/90 to-[#18181A]/90 border border-[#F2BC57]/15 shadow-lg px-6 py-4 rounded-xl backdrop-blur-md hover:ring-2 hover:ring-[#F2BC57]/60 transition-all duration-200">
             <Paintbrush className="h-6 w-6 text-[#F2BC57]" />
             <span className="text-[#F2BC57]/95">
               Design modern &amp; execuție atentă la detalii pentru fiecare spațiu.
             </span>
           </li>
-          <li className="flex items-center gap-3 bg-gradient-to-r from-[#232324]/90 to-[#18181A]/90 border border-[#F2BC57]/15 shadow-lg px-6 py-4 rounded-xl backdrop-blur-md hover:ring-2 hover:ring-[#F2BC57]/60 transition-all duration-200">
+          <li className="flex items-center gap-3 bg-linear-to-r from-[#232324]/90 to-[#18181A]/90 border border-[#F2BC57]/15 shadow-lg px-6 py-4 rounded-xl backdrop-blur-md hover:ring-2 hover:ring-[#F2BC57]/60 transition-all duration-200">
             <CheckCircle2 className="h-6 w-6 text-[#F2BC57]" />
             <span className="text-[#F2BC57]/95">
               Consultanță gratuită: planificăm împreună cea mai bună soluție.
