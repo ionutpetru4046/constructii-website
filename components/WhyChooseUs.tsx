@@ -101,7 +101,7 @@ export default function WhyChooseUs() {
         <div className="flex justify-center mt-16">
           <Link
             href="/contact"
-            className="inline-block px-12 py-5 rounded-full font-extrabold text-lg md:text-xl shadow-xl bg-gradient-to-r from-[#F2BC57] via-[#F2BC57] to-[#F7D484] text-[#18181A] hover:from-[#F7D484] hover:to-[#F2BC57] hover:scale-105 transition-all duration-200 outline-none border-2 border-[#F2BC57]/30 focus-visible:ring-4 focus-visible:ring-[#F2BC57]/20"
+            className="inline-block px-12 py-5 rounded-full font-extrabold text-lg md:text-xl shadow-xl bg-linear-to-r from-[#F2BC57] via-[#F2BC57] to-[#F7D484] text-[#18181A] hover:from-[#F7D484] hover:to-[#F2BC57] hover:scale-105 transition-all duration-200 outline-none border-2 border-[#F2BC57]/30 focus-visible:ring-4 focus-visible:ring-[#F2BC57]/20"
           >
             Cere o ofertă personalizată
           </Link>
@@ -122,7 +122,7 @@ function WhyCard({
   description: React.ReactNode;
 }) {
   return (
-    <div className="relative bg-gradient-to-br from-[#18181A]/80 to-[#232324]/80 border-2 border-[#F2BC57]/10 shadow-[0_6px_24px_0_rgba(242,188,87,0.13)] hover:shadow-[#F2BC57]/30 group rounded-3xl px-8 py-10 flex flex-col items-center transition-all duration-300 hover:-translate-y-2 hover:border-[#F2BC57]/30 hover:shadow-2xl backdrop-blur-lg">
+    <div className="relative bg-linear-to-br from-[#18181A]/80 to-[#232324]/80 border-2 border-[#F2BC57]/10 shadow-[0_6px_24px_0_rgba(242,188,87,0.13)] hover:shadow-[#F2BC57]/30 group rounded-3xl px-8 py-10 flex flex-col items-center transition-all duration-300 hover:-translate-y-2 hover:border-[#F2BC57]/30 hover:shadow-2xl backdrop-blur-lg">
       <span className="mb-5 flex items-center justify-center w-16 h-16 rounded-full bg-[#F2BC57]/12 border border-[#F2BC57]/40 shadow group-hover:bg-[#F2BC57]/20 group-hover:scale-110 transition-all">
         {icon}
       </span>
