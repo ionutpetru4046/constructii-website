@@ -1,51 +1,58 @@
-# kadarHouse.ro
+# KadarHouse.ro
 
-**kadarHouse.ro** este un website profesional dedicat serviciilor de construcții, renovări și amenajări interioare, realizat cu [Next.js](https://nextjs.org).
+**KadarHouse.ro** este un website dedicat promovării serviciilor profesionale de construcții, renovări și amenajări interioare, adresat atât persoanelor fizice cât și companiilor care doresc soluții moderne și de calitate în domeniul construcțiilor.
 
-## Funcționalități principale
+---
 
-- Prezentare servicii de construcții, instalații, amenajări și consultanță
-- Galerie proiecte realizate
-- Informații despre echipa și avantajele colaborării
-- Formulare de contact pentru ofertare rapidă
-- Responsiv, modern și optimizat SEO
-- Navigare rapidă și design profesional
+## Prezentare generală
 
-## Cum rulezi local
+KadarHouse.ro oferă o platformă digitală modernă și intuitivă, creată cu [Next.js](https://nextjs.org), prin care clienții pot descoperi portofoliul firmei, serviciile oferite și pot lua contact rapid cu echipa noastră de profesioniști.
+
+## Caracteristici cheie
+
+- **Prezentare servicii**: Detalierea tuturor categoriilor de lucrări — construcții civile și industriale, instalații, finisaje, renovări și consultanță tehnică.
+- **Galerie proiecte**: Exemple vizuale din proiectele anterioare, pentru evidențierea nivelului de profesionalism.
+- **Secțiune echipă**: Informații despre specializările echipei și avantajele colaborării cu noi.
+- **Formular de contact și ofertare**: Canal direct și eficient pentru solicitarea de oferte personalizate.
+- **Design modern, responsiv**: Site optimizat pentru orice dispozitiv, cu încărcare rapidă și experiență premium.
+- **Optimizare SEO**: Structură clară și conținut optimizat pentru vizibilitate maximă în motoarele de căutare.
+
+## Instrucțiuni pentru rularea locală
 
 1. Instalează dependențele:
    ```bash
    npm install
    ```
-2. Pornește serverul de development:
+2. Pornește serverul de dezvoltare:
    ```bash
    npm run dev
    ```
-3. Accesează site-ul la [http://localhost:3000](http://localhost:3000)
+3. Accesează site-ul la adresa: [http://localhost:3000](http://localhost:3000)
 
-Website-ul este dezvoltat cu [Next.js App Router](https://nextjs.org/docs/app), folosește componente moderne React, TailwindCSS pentru styling și este gata de deploy pe Vercel.
+> Platforma utilizează Next.js App Router, React și TailwindCSS pentru dezvoltare rapidă și scalabilă. Gata pentru deploy pe Vercel sau orice provider compatibil.
 
-## Structura principală
+## Structura proiectului
 
-- `app/` — paginile site-ului
-- `components/` — componente reutilizabile (Navbar, Footer, Services etc.)
-- `public/` — imagini și assets statice
+- `app/` — Pagini principale și structura de navigare.
+- `components/` — Componente reutilizabile (Navbar, Footer, ServiceCards etc.).
+- `public/` — Resurse statice: imagini, logo, fișiere media.
 
-## Personalizare
+## Personalizare și administrare
 
-Toate textele, serviciile și informațiile de contact pot fi modificate din fișierele din `app/` și `components/`.
+Toate elementele de conținut (texte, liste de servicii, informații de contact) pot fi editate rapid prin fișierele sursă din `app/` și `components/`.
 
-## Deploy
+## Deploy și live
 
-Poți realiza deploy rapid pe [Vercel](https://vercel.com/new) sau pe orice host compatibil Next.js.
+- Deploy instant pe [Vercel](https://vercel.com/new) dintr-un repository GitHub sau direct manual.
+- Se poate rula și pe alte platforme compatibile cu Next.js fără modificări suplimentare.
 
-## Contact
+## Informații de contact
 
-Pentru detalii suplimentare sau colaborare:
-- Telefon: +40 712 345 678
-- Email: contact@constructiipro.ro
-- Locație: București, România
+Pentru detalii suplimentare, colaborări sau solicitare ofertă ne poți contacta:
+- **Telefon:** +40 712 345 678
+- **Email:** contact@constructiipro.ro
+- **Adresă:** București, România
 
 ---
 
-**kadarHouse.ro** — Profesioniști în construcții și renovări. Calitate, punctualitate, garanție!
+**KadarHouse.ro** — Compania ta de încredere pentru construcții durabile, renovări impecabile și servicii personalizate. Calitate garantată de profesioniști!
